@@ -18,11 +18,13 @@ body {
   color: var(--black-color);
 }
 
+header {
+  height: 6rem;
+}
 header, footer {
   text-align: center;
   background: #445BDE;
   color: #fff;
-  height: 4rem;
 }
 
 header h1, footer p {
@@ -109,6 +111,10 @@ main {
   grid-column: 1 / -1;
   font-style: italic;
   line-height: 1.35;
+}
+
+footer {
+  height: 4rem;
 }
 
 footer a {
