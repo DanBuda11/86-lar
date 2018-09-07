@@ -2,6 +2,7 @@ const sel = document.getElementById('dropdown-select');
 const info = document.getElementById('info-section');
 const agencyName = document.getElementById('agency-name');
 const requestsRender = document.getElementById('requests');
+const columnNames = document.getElementById('column-names');
 
 const data = [
   {
@@ -9,7 +10,7 @@ const data = [
     requests: [
       {
         name: 'request 1',
-        yOne: 25,
+        yOne: 25000000,
         yTwo: 50,
         note:
           'Sunt deserunt labore tempor laboris amet dolor dolore incididunt in.',
@@ -34,6 +35,16 @@ const data = [
       },
     ],
   },
+  {
+    agency: 'Texas Higher Education Coordinating Board',
+    requests: [
+      {
+        name: 'popsicles',
+        yOne: 17.5,
+        yTwo: 2000000,
+      },
+    ],
+  },
 ];
 
 // data.map(agency => {
@@ -45,21 +56,19 @@ let agencyOptions = [];
 agencyOptions.push(`<option value="">--select--</option>`);
 data
   .map(agency => {
-    return agencyOptions.push(
-      `<option value=${agency.agency.split(' ').join('&nbsp;')}>${
-        agency.agency
-      }</option>`
-    );
+    return agencyOptions.push(`<option>${agency.agency}</option>`);
   })
   .join('');
 // console.log(agencyOptions);
 // const final = agencyOptions.join('');
 // console.log(final);
 
-console.log('agencyOptions: ', agencyOptions);
+// console.log('agencyOptions: ', agencyOptions);
 sel.innerHTML = agencyOptions;
 
 sel.onchange = function(e) {
+  columnNames.classList.add('open');
+
   console.log('sel.value: ', sel.value);
   // console.log('fuck');
   console.log('e.target.value: ', e.target.value);
@@ -75,11 +84,9 @@ sel.onchange = function(e) {
   } else {
     console.log('god dammit!');
   }
-  const found = data.find(
-    agency => agency.agency.split(' ').join('') === val.split(' ').join('')
-  );
+  const found = data.find(agency => agency.agency === sel.value);
   console.log('found: ', found);
-
+  // console.log('found.agency: ', found.agency);
   // Then pull all the data out of that items and populate the main page with
   // agency name
   agencyName.textContent = found.agency;
@@ -87,14 +94,29 @@ sel.onchange = function(e) {
   // and request data
   let requests = [];
   found.requests.map(request => {
-    return requests.push(`
+    let yOneDollar = request.yOne
+      .toString()
+      .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    let yTwoDollar = request.yTwo
+      .toString()
+      .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    if (!request.note || request.note === '') {
+      return requests.push(`
       <ul class="request">
         <li class="req-info">${request.name}</li>
-        <li class="req-info">${request.yOne}</li>
-        <li class="req-info">${request.yTwo}</li>
+        <li class="req-info">$${yOneDollar}</li>
+        <li class="req-info">$${yTwoDollar}</li>
+      </ul>`);
+    } else {
+      return requests.push(`
+      <ul class="request">
+        <li class="req-name">${request.name}</li>
+        <li class="req-info">$${yOneDollar}</li>
+        <li class="req-info">$${yTwoDollar}</li>
         <li class="notes">${request.note}</li>
       </ul>
     `);
+    }
   });
   console.log(requests.join(''));
   requestsRender.innerHTML = requests.join('');

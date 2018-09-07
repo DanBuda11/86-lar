@@ -6,11 +6,16 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --black-color: #222;
+}
+
 h1, p {
   margin: 0;
 }
 body {
   font-family: sans-serif;
+  color: var(--black-color);
 }
 
 header, footer {
@@ -32,6 +37,25 @@ main {
 .dropdown-section {
   text-align: center;
   padding: 1em;
+  width: 90%;
+}
+
+#column-names {
+  display: none;
+}
+
+#column-names.open {
+  display: block;
+}
+
+#column-names ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
+
+#column-names ul li {
+  padding: 10px;
 }
 
 #agency-name {
@@ -43,20 +67,24 @@ main {
 
 .request {
   display: grid;
-  grid-template-columns: 50% auto auto;
+  grid-template-columns: 50% 25% 25%;
   list-style: none;
   margin: 10px 0;
-  border-top: 1px solid #333;
+  border-top: 1px solid var(--black-color);
   padding-top: 10px;
 }
 
-.request:first-child {
+/* .request:first-child {
   border: none;
-}
+} */
 
 .request li {
   display: inline-block;
   padding: 10px;
+}
+
+.req-info {
+  text-align: right;
 }
 
 .notes {
