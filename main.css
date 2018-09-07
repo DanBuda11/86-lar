@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, p {
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+header, footer {
+  text-align: center;
+  background: #445BDE;
+  color: #fff;
+  height: 4rem;
+}
+
+header h1, footer p {
+  line-height: 4rem;
+}
+
+main {
+  min-height: calc(100vh - 8rem);
+  padding: 1em;
+}
+
+.dropdown-section {
+  text-align: center;
+  padding: 1em;
+}
+
+#agency-name {
+  text-align: center;
+}
+
+#requests {
+}
+
+.request {
+  display: grid;
+  grid-template-columns: 50% auto auto;
+  list-style: none;
+  margin: 10px 0;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.request:first-child {
+  border: none;
+}
+
+.request li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.notes {
+  grid-column: 1 / -1;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:active {
+  color: #ccc;
+}
