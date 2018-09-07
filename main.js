@@ -4,6 +4,11 @@ const agencyName = document.getElementById('agency-name');
 const requestsRender = document.getElementById('requests');
 const columnNames = document.getElementById('column-names');
 
+// Should I do a type-in search bar instead of a dropdown? It'd probably be A LOT easier
+// to search...
+// especially for things like Texas Bond Review Board when people are probably used to just
+// looking for Bond Review Board
+
 const data = [
   {
     agency: 'Texas Education Agency',
@@ -24,14 +29,19 @@ const data = [
     ],
   },
   {
-    agency: 'CPRIT',
+    agency: 'Cancer Prevention and Research Insitute of Texas',
     requests: [
       {
-        name: 'request 3',
-        yOne: 500,
-        yTwo: 70808,
+        name: 'Restore Cancer Research and Prevention Grant Funding',
+        yOne: 82000000,
+        yTwo: 82000000,
+      },
+      {
+        name: '1 New Systems Analyst FTE',
+        yOne: 0,
+        yTwo: 0,
         note:
-          'Labore labore sint consectetur labore cupidatat ex dolore minim non labore officia nisi eiusmod velit.',
+          'Net zero cost comes from combination of $85,000 salary and $5,215 in Other Operating Expense against $90,215 from Professional Fees & Services.',
       },
     ],
   },
@@ -42,6 +52,82 @@ const data = [
         name: 'popsicles',
         yOne: 17.5,
         yTwo: 2000000,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Bond Review Board',
+    requests: [
+      {
+        name: 'Database Management, Training and Additional Development',
+        yOne: 21000,
+        yTwo: 21000,
+      },
+      {
+        name: 'Public Official Liability (D&O) insurance coverage',
+        yOne: 6000,
+        yTwo: 6000,
+      },
+      {
+        name: 'Website Upgrade',
+        yOne: 100000,
+        yTwo: 6000,
+      },
+      {
+        name: 'Disclosure/Tax Counsel',
+        yOne: 10000,
+        yTwo: 10000,
+      },
+    ],
+  },
+  {
+    agency: 'Commission on State Emergency Communications',
+    requests: [
+      {
+        name:
+          'Regional Planning Commission Grant Equipment Replacement and Maintenance',
+        yOne: 6377477,
+        yTwo: 2265994,
+      },
+      {
+        name: 'Maintain RPCC SPI Staffing at current levels',
+        yOne: 370965,
+        yTwo: 370965,
+      },
+      {
+        name: 'Restore Poison Network Capacity',
+        yOne: 1277678,
+        yTwo: 1277678,
+      },
+      {
+        name: 'TPCN Disaster Recovery Mitigation Site',
+        yOne: 182400,
+        yTwo: 87540,
+      },
+      {
+        name: 'CSEC Process Automation',
+        yOne: 789910,
+        yTwo: 115350,
+      },
+      {
+        name: 'TPCN Medical Directors',
+        yOne: 781355,
+        yTwo: 781355,
+      },
+      {
+        name: 'TPCN Managing Directors',
+        yOne: 346396,
+        yTwo: 346396,
+      },
+      {
+        name: 'Public Education and Awareness',
+        yOne: 178000,
+        yTwo: 456000,
+      },
+      {
+        name: 'CSEC Agency CAPPS Implementation',
+        yOne: 121800,
+        yTwo: 111100,
       },
     ],
   },
@@ -103,7 +189,7 @@ sel.onchange = function(e) {
     if (!request.note || request.note === '') {
       return requests.push(`
       <ul class="request">
-        <li class="req-info">${request.name}</li>
+        <li class="req-name">${request.name}</li>
         <li class="req-info">$${yOneDollar}</li>
         <li class="req-info">$${yTwoDollar}</li>
       </ul>`);

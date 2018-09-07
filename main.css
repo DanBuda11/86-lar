@@ -36,8 +36,21 @@ main {
 
 .dropdown-section {
   text-align: center;
-  padding: 1em;
-  width: 90%;
+  padding: 1em 0;
+  /* width: 90%; */
+}
+
+#dropdown-select {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.start-text {
+  font-size: 20px;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 1.35;
 }
 
 #column-names {
@@ -62,6 +75,11 @@ main {
   text-align: center;
 }
 
+#info-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 #requests {
 }
 
@@ -80,7 +98,7 @@ main {
 
 .request li {
   display: inline-block;
-  padding: 10px;
+  padding: 6px;
 }
 
 .req-info {
@@ -89,6 +107,8 @@ main {
 
 .notes {
   grid-column: 1 / -1;
+  font-style: italic;
+  line-height: 1.35;
 }
 
 footer a {
