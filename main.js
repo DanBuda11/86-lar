@@ -1,8 +1,77 @@
 const sel = document.getElementById('dropdown-select');
+const agencyInput = document.getElementById('agency-input');
 const info = document.getElementById('info-section');
 const agencyName = document.getElementById('agency-name');
 const requestsRender = document.getElementById('requests');
 const columnNames = document.getElementById('column-names');
+
+// Mostl likely use one of these
+// agencyInput.addEventListener('change', function(e) {
+//   console.log('change: ', e.target.value);
+// });
+// agencyInput.addEventListener('keyup', function(e) {
+//   console.log('keyup: ', e.target.value);
+// });
+
+agencyInput.addEventListener('input', function(e) {
+  console.log('input: ', e.target.value);
+
+  // Need to do something so that only when an agency name match is clicked/submitted/written in fully,
+  // only THEN run code that populates the requests area for that agency
+
+  if (data.find(agency => agency.agency === e.target.value) !== undefined) {
+    console.log('found one!');
+    const found = data.find(agency => agency.agency === e.target.value);
+
+    agencyName.textContent = found.agency;
+
+    if (!found.requests) {
+      console.log('NO REQUESTS!');
+      columnNames.classList.remove('open');
+      requestsRender.innerHTML =
+        '<p class="no-requests">This agency has no exceptional item requests.';
+    } else {
+      console.log('REQUESTS FOUND!');
+
+      columnNames.classList.add('open');
+
+      let requests = [];
+      found.requests.map(request => {
+        let yOneDollar = request.yOne
+          .toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        let yTwoDollar = request.yTwo
+          .toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        if (!request.note || request.note === '') {
+          return requests.push(`
+      <ul class="request">
+        <li class="req-name">${request.name}</li>
+        <li class="req-info">$${yOneDollar}</li>
+        <li class="req-info">$${yTwoDollar}</li>
+      </ul>`);
+        } else {
+          return requests.push(`
+      <ul class="request">
+        <li class="req-name">${request.name}</li>
+        <li class="req-info">$${yOneDollar}</li>
+        <li class="req-info">$${yTwoDollar}</li>
+        <li class="notes">${request.note}</li>
+      </ul>
+    `);
+        }
+      });
+      console.log(requests.join(''));
+      requestsRender.innerHTML = requests.join('');
+    }
+    agencyInput.value = '';
+  }
+
+  // if (e.target.value) {
+  //   const found = data.find(agency => agency.agency === e.target.value);
+  //   console.log('found: ', found);
+  // }
+});
 
 // Should I do a type-in search bar instead of a dropdown? It'd probably be A LOT easier
 // to search...
@@ -131,6 +200,9 @@ const data = [
       },
     ],
   },
+  {
+    agency: 'Banking Commission',
+  },
 ];
 
 // data.map(agency => {
@@ -152,7 +224,7 @@ data
 // console.log('agencyOptions: ', agencyOptions);
 sel.innerHTML = agencyOptions;
 
-sel.onchange = function(e) {
+sel.onsubmit = function(e) {
   columnNames.classList.add('open');
 
   console.log('sel.value: ', sel.value);

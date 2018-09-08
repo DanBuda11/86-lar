@@ -32,8 +32,12 @@ header h1, footer p {
 }
 
 main {
-  min-height: calc(100vh - 8rem);
+  min-height: calc(100vh - 10rem);
   padding: 1em;
+}
+
+#agency-input {
+  width: 60%;
 }
 
 .dropdown-section {
@@ -48,11 +52,20 @@ main {
   max-width: 450px;
 }
 
-.start-text {
+.start-text, .no-requests {
   font-size: 20px;
   max-width: 450px;
   margin: 0 auto;
-  line-height: 1.35;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.start-text {
+  padding-top: 5em;
+}
+
+.no-requests {
+  padding-top: 3.5em;
 }
 
 #column-names {
@@ -67,10 +80,11 @@ main {
   list-style: none;
   display: grid;
   grid-template-columns: 50% 25% 25%;
+  padding: 0;
 }
 
 #column-names ul li {
-  padding: 10px;
+  padding: 6px;
 }
 
 #agency-name {
@@ -91,7 +105,7 @@ main {
   list-style: none;
   margin: 10px 0;
   border-top: 1px solid var(--black-color);
-  padding-top: 10px;
+  padding: 10px 0 0;
 }
 
 /* .request:first-child {
