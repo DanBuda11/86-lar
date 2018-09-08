@@ -99,6 +99,16 @@ main {
 #requests {
 }
 
+.disclaimer {
+  font-size: 15px;
+  font-style: italic;
+  max-width: 450px;
+  margin: 9em auto 0;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
 .request {
   display: grid;
   grid-template-columns: 50% 25% 25%;
