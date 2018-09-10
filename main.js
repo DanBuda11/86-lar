@@ -1,3 +1,5 @@
+// Polyfill for datalist
+// Will need to clean up my code as it only kinda works on ios Chrome right now
 !(function() {
   'use strict';
   var e = window.document,
@@ -405,17 +407,19 @@ const data = [
     agency: 'Texas Education Agency',
     requests: [
       {
-        name: 'request 1',
-        yOne: 25000000,
-        yTwo: 50,
-        note:
-          'Sunt deserunt labore tempor laboris amet dolor dolore incididunt in.',
+        name: 'Safe and Healthy Schools Initiative',
+        yOne: 53728500,
+        yTwo: 750000,
       },
       {
-        name: 'request 2',
-        yOne: 75,
-        yTwo: 100,
-        note: 'Tempor adipisicing veniam in quis voluptate est ex nostrud.',
+        name: 'Special Education Supports',
+        yOne: 50478500,
+        yTwo: 0,
+      },
+      {
+        name: 'Windham School District Program Expansion',
+        yOne: 5269024,
+        yTwo: 4786030,
       },
     ],
   },
