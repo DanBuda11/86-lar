@@ -118,10 +118,75 @@ const data = [
     agency: 'Texas Higher Education Coordinating Board',
     requests: [
       {
-        name: 'popsicles',
-        yOne: 17.5,
-        yTwo: 2000000,
+        name: 'Toward EXcellence, Access, and Success Grants',
+        yOne: 36700000,
+        yTwo: 70600000,
       },
+      {
+        name: 'Support Critical Agency Operations',
+        yOne: 1123700,
+        yTwo: 1123700
+      },
+      {
+        name: 'IT Application Portfolio Modernization',
+        yOne: 520000,
+        yTwo: 520000
+      },
+      {
+        name: 'GradTX Consotrium',
+        yOne: 250000,
+        yTwo: 250000
+      },
+      {
+        name: 'Support Transfer Initiatives',
+        yOne: 25000,
+        yTwo: 25000
+      },
+      {
+        name: 'Support 60x30TX Regional Strategies',
+        yOne: 650000,
+        yTwo: 650000
+      },
+      {
+        name: 'TSIA Enhancement and Success',
+        yOne: 1000000,
+        yTwo: 0
+      },
+      {
+        name: 'Access to Out-of-State Student Data',
+        yOne: 135000,
+        yTwo: 135000
+      },
+      {
+        name: 'Enhance Compliance Monitoring',
+        yOne: 352800,
+        yTwo: 354650
+      },
+      {
+        name: 'Graduate Medical Education',
+        yOne: 30337500,
+        yTwo: 30337500
+      },
+      {
+        name: 'Financial Literacy Initiatives',
+        yOne: 50000,
+        yTwo: 50000
+      },
+      {
+        name: 'Open Education Resources Repository',
+        yOne: 160000,
+        yTwo: 90000
+      },
+      {
+        name: 'Open Education Resource Grants',
+        yOne: 100000,
+        yTwo: 100000
+      },
+      {
+        name: 'Family Education Coordinating Board',
+        yOne: 1000000,
+        yTwo: 1000000
+      }
     ],
   },
   {
