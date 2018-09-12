@@ -48,6 +48,9 @@ module.exports = {
       template: 'src/views/index.html',
       chunks: ['app'],
     }),
+    new HtmlWebpackPlugin({
+      favicon: 'src/images/favicon.ico',
+    }),
     new BrowserSyncPlugin(
       {
         host: 'localhost',
