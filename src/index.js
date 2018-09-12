@@ -1,3 +1,5 @@
+import './styles/main.scss';
+
 // Polyfill for datalist
 // Will need to clean up my code as it only kinda works on ios Chrome right now
 !(function() {
