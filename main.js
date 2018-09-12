@@ -594,6 +594,38 @@ const data = [
   {
     agency: 'Banking Commission',
   },
+  {
+    agency: 'School for the Deaf',
+    requests: [
+      {
+        name:
+          'Unmet Staff Needs in Special Education Direct Services and Safety',
+        yOne: 835531,
+        yTwo: 835531,
+      },
+      {
+        name:
+          'Capital Equipment Request for Campus Security and Dorm Furniture',
+        yOne: 935000,
+        yTwo: 500000,
+      },
+      {
+        name: '2020/2021 Transportation Items',
+        yOne: 160000,
+        yTwo: 160000,
+      },
+      {
+        name: 'Salary Increase for Underpaid Critical Staff',
+        yOne: 290394,
+        yTwo: 290394,
+      },
+      {
+        name: 'Master Plan Phase 2, New and Repurposed Facilities',
+        yOne: 26105209,
+        yTwo: 0,
+      },
+    ],
+  },
 ];
 
 // data.map(agency => {
