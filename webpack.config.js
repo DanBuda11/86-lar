@@ -34,6 +34,10 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
+      {
+        test: /\.ico$/,
+        loader: 'file-loader?name=[name].[ext]',
+      },
     ],
   },
   plugins: [

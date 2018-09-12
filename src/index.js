@@ -1,4 +1,5 @@
 import './styles/main.scss';
+require('./images/favicon.ico');
 
 // Polyfill for datalist
 // Will need to clean up my code as it only kinda works on ios Chrome right now
