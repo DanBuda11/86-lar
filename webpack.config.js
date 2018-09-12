@@ -5,9 +5,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
-  entry: {
-    app: './src/index.js',
-  },
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -44,12 +42,10 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
-      filename: 'index.html',
+      title: '86th Legislature Exceptional Item Requests',
       template: 'src/views/index.html',
+      favicon: 'favicon.ico',
       chunks: ['app'],
-    }),
-    new HtmlWebpackPlugin({
-      favicon: 'src/images/favicon.ico',
     }),
     new BrowserSyncPlugin(
       {
