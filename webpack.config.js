@@ -44,7 +44,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: '86th Legislature Exceptional Item Requests',
       template: 'src/views/index.html',
-      favicon: 'favicon.ico'
+      favicon: 'dollar.ico'
     }),
     new BrowserSyncPlugin(
       {
