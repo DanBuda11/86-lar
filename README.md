@@ -1,8 +1,9 @@
 # Exceptional Item Request Database
 
-Renders budget requests for exceptional items by Texas Agencies found in their Legislative Appropriations Requests for the 8th Texas Legislative session.
+Renders budget requests for exceptional items by Texas Agencies found in their Legislative Appropriations Requests for the 86th Texas Legislative session.
 
-Build with HTML5, CSS and Vanilla JavaScript.
+Built with HTML5, SCSS and Vanilla JavaScript.
 
 - Minimal use of CSS Variables
-- HTML `input` and `datalist` used to perform a keyword search by full or partial agency name to find the desired agency in the `datalist` options
+- Webpack setup with PostCSS & Autoprefixer set for the previous 2 browser versions and anything with 1% or greater usage
+- Flexbox used for some styling
