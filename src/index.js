@@ -1,4 +1,5 @@
 import './styles/main.scss';
+import data from './data';
 
 // Polyfill for datalist
 // Will need to clean up my code as it only kinda works on ios Chrome right now
@@ -404,232 +405,6 @@ agencyInput.addEventListener('input', function(e) {
 // especially for things like Texas Bond Review Board when people are probably used to just
 // looking for Bond Review Board
 
-const data = [
-  {
-    agency: 'Texas Education Agency',
-    requests: [
-      {
-        name: 'Safe and Healthy Schools Initiative',
-        yOne: 53728500,
-        yTwo: 750000,
-      },
-      {
-        name: 'Special Education Supports',
-        yOne: 50478500,
-        yTwo: 0,
-      },
-      {
-        name: 'Windham School District Program Expansion',
-        yOne: 5269024,
-        yTwo: 4786030,
-      },
-    ],
-  },
-  {
-    agency: 'Cancer Prevention and Research Insitute of Texas',
-    requests: [
-      {
-        name: 'Restore Cancer Research and Prevention Grant Funding',
-        yOne: 82000000,
-        yTwo: 82000000,
-      },
-      {
-        name: '1 New Systems Analyst FTE',
-        yOne: 0,
-        yTwo: 0,
-        note:
-          'Net zero cost comes from combination of $85,000 salary and $5,215 in Other Operating Expense against $90,215 from Professional Fees & Services.',
-      },
-    ],
-  },
-  {
-    agency: 'Texas Higher Education Coordinating Board',
-    requests: [
-      {
-        name: 'Toward EXcellence, Access, and Success Grants',
-        yOne: 36700000,
-        yTwo: 70600000,
-      },
-      {
-        name: 'Support Critical Agency Operations',
-        yOne: 1123700,
-        yTwo: 1123700,
-      },
-      {
-        name: 'IT Application Portfolio Modernization',
-        yOne: 520000,
-        yTwo: 520000,
-      },
-      {
-        name: 'GradTX Consotrium',
-        yOne: 250000,
-        yTwo: 250000,
-      },
-      {
-        name: 'Support Transfer Initiatives',
-        yOne: 25000,
-        yTwo: 25000,
-      },
-      {
-        name: 'Support 60x30TX Regional Strategies',
-        yOne: 650000,
-        yTwo: 650000,
-      },
-      {
-        name: 'TSIA Enhancement and Success',
-        yOne: 1000000,
-        yTwo: 0,
-      },
-      {
-        name: 'Access to Out-of-State Student Data',
-        yOne: 135000,
-        yTwo: 135000,
-      },
-      {
-        name: 'Enhance Compliance Monitoring',
-        yOne: 352800,
-        yTwo: 354650,
-      },
-      {
-        name: 'Graduate Medical Education',
-        yOne: 30337500,
-        yTwo: 30337500,
-      },
-      {
-        name: 'Financial Literacy Initiatives',
-        yOne: 50000,
-        yTwo: 50000,
-      },
-      {
-        name: 'Open Education Resources Repository',
-        yOne: 160000,
-        yTwo: 90000,
-      },
-      {
-        name: 'Open Education Resource Grants',
-        yOne: 100000,
-        yTwo: 100000,
-      },
-      {
-        name: 'Family Education Coordinating Board',
-        yOne: 1000000,
-        yTwo: 1000000,
-      },
-    ],
-  },
-  {
-    agency: 'Texas Bond Review Board',
-    requests: [
-      {
-        name: 'Database Management, Training and Additional Development',
-        yOne: 21000,
-        yTwo: 21000,
-      },
-      {
-        name: 'Public Official Liability (D&O) insurance coverage',
-        yOne: 6000,
-        yTwo: 6000,
-      },
-      {
-        name: 'Website Upgrade',
-        yOne: 100000,
-        yTwo: 6000,
-      },
-      {
-        name: 'Disclosure/Tax Counsel',
-        yOne: 10000,
-        yTwo: 10000,
-      },
-    ],
-  },
-  {
-    agency: 'Commission on State Emergency Communications',
-    requests: [
-      {
-        name:
-          'Regional Planning Commission Grant Equipment Replacement and Maintenance',
-        yOne: 6377477,
-        yTwo: 2265994,
-      },
-      {
-        name: 'Maintain RPCC SPI Staffing at current levels',
-        yOne: 370965,
-        yTwo: 370965,
-      },
-      {
-        name: 'Restore Poison Network Capacity',
-        yOne: 1277678,
-        yTwo: 1277678,
-      },
-      {
-        name: 'TPCN Disaster Recovery Mitigation Site',
-        yOne: 182400,
-        yTwo: 87540,
-      },
-      {
-        name: 'CSEC Process Automation',
-        yOne: 789910,
-        yTwo: 115350,
-      },
-      {
-        name: 'TPCN Medical Directors',
-        yOne: 781355,
-        yTwo: 781355,
-      },
-      {
-        name: 'TPCN Managing Directors',
-        yOne: 346396,
-        yTwo: 346396,
-      },
-      {
-        name: 'Public Education and Awareness',
-        yOne: 178000,
-        yTwo: 456000,
-      },
-      {
-        name: 'CSEC Agency CAPPS Implementation',
-        yOne: 121800,
-        yTwo: 111100,
-      },
-    ],
-  },
-  {
-    agency: 'Banking Commission',
-  },
-  {
-    agency: 'School for the Deaf',
-    requests: [
-      {
-        name:
-          'Unmet Staff Needs in Special Education Direct Services and Safety',
-        yOne: 835531,
-        yTwo: 835531,
-      },
-      {
-        name:
-          'Capital Equipment Request for Campus Security and Dorm Furniture',
-        yOne: 935000,
-        yTwo: 500000,
-      },
-      {
-        name: '2020/2021 Transportation Items',
-        yOne: 160000,
-        yTwo: 160000,
-      },
-      {
-        name: 'Salary Increase for Underpaid Critical Staff',
-        yOne: 290394,
-        yTwo: 290394,
-      },
-      {
-        name: 'Master Plan Phase 2, New and Repurposed Facilities',
-        yOne: 26105209,
-        yTwo: 0,
-      },
-    ],
-  },
-];
-
 // data.map(agency => {
 //   console.log(agency.agency.split(' ').join('&nbsp;'));
 // });
@@ -642,12 +417,12 @@ data
     return agencyOptions.push(`<option>${agency.agency}</option>`);
   })
   .join('');
-// console.log(agencyOptions);
+console.log('agencyOptions: ', agencyOptions.join(''));
 // const final = agencyOptions.join('');
 // console.log(final);
 
 // console.log('agencyOptions: ', agencyOptions);
-sel.innerHTML = agencyOptions;
+sel.innerHTML = agencyOptions.join('');
 
 sel.onsubmit = function(e) {
   columnNames.classList.add('open');
@@ -673,6 +448,11 @@ sel.onsubmit = function(e) {
   // Then pull all the data out of that items and populate the main page with
   // agency name
   agencyName.textContent = found.agency;
+
+  if (!found.requests) {
+    requestsRender.innerHTML =
+      '<p>There are no exceptional item requests for this agency.</p>';
+  }
 
   // and request data
   let requests = [];
