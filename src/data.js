@@ -1,6 +1,7 @@
 export default [
   {
     agency: 'Texas Education Agency',
+    article: 3,
     requests: [
       {
         name: 'Safe and Healthy Schools Initiative',
@@ -21,6 +22,7 @@ export default [
   },
   {
     agency: 'Cancer Prevention and Research Insitute of Texas',
+    article: 1,
     requests: [
       {
         name: 'Restore Cancer Research and Prevention Grant Funding',
@@ -38,6 +40,7 @@ export default [
   },
   {
     agency: 'Texas Higher Education Coordinating Board',
+    article: 3,
     requests: [
       {
         name: 'Toward EXcellence, Access, and Success Grants',
@@ -112,7 +115,8 @@ export default [
     ],
   },
   {
-    agency: 'Texas Bond Review Board',
+    agency: 'Bond Review Board',
+    article: 1,
     requests: [
       {
         name: 'Database Management, Training and Additional Development',
@@ -138,6 +142,7 @@ export default [
   },
   {
     agency: 'Commission on State Emergency Communications',
+    article: 1,
     requests: [
       {
         name:
@@ -188,10 +193,8 @@ export default [
     ],
   },
   {
-    agency: 'Banking Commission',
-  },
-  {
     agency: 'School for the Deaf',
+    article: 3,
     requests: [
       {
         name:
@@ -224,6 +227,7 @@ export default [
   },
   {
     agency: 'Employees Retirement System',
+    article: 1,
     requests: [
       {
         name: 'ERS Actuarially Sound Level',
@@ -244,6 +248,7 @@ export default [
   },
   {
     agency: 'Texas A&M AgriLife Extension Service',
+    article: 3,
     requests: [
       {
         name: 'Disaster Relief and Future Proofing Texas',
@@ -260,6 +265,7 @@ export default [
   },
   {
     agency: 'Texas A&M AgriLife Research',
+    article: 3,
     requests: [
       {
         name:
@@ -278,6 +284,7 @@ export default [
   },
   {
     agency: 'Texas A&M Engineering Experiment Station',
+    article: 3,
     requests: [
       {
         name:
@@ -297,6 +304,7 @@ export default [
   },
   {
     agency: 'Texas A&M Engineering Extension Service',
+    article: 3,
     requests: [
       {
         name: 'Texas Regional Search & Rescue System',
@@ -321,6 +329,7 @@ export default [
   },
   {
     agency: 'Texas A&M Forest Service',
+    article: 3,
     requests: [
       {
         name: 'Texas Wildlife Protection Plan - TIFMAS Grants',
@@ -331,6 +340,7 @@ export default [
   },
   {
     agency: 'Texas A&M International University',
+    article: 3,
     requests: [
       {
         name: 'Path to Academic and Student Success (PASS)',
@@ -353,6 +363,7 @@ export default [
   },
   {
     agency: 'Texas A&M Transportation Institute',
+    article: 3,
     requests: [
       {
         name: 'Transportation Policy Research',
@@ -370,6 +381,7 @@ export default [
   },
   {
     agency: 'Texas A&M University',
+    article: 3,
     requests: [
       {
         name: 'Data Science for Energy',
@@ -387,6 +399,7 @@ export default [
   },
   {
     agency: 'Texas A&M University - Central Texas',
+    article: 3,
     requests: [
       {
         name: 'Academic and Student Support',
@@ -404,6 +417,7 @@ export default [
   },
   {
     agency: 'Texas A&M University - Commerce',
+    article: 3,
     requests: [
       {
         name:
@@ -421,6 +435,7 @@ export default [
   },
   {
     agency: 'Texas A&M University - Corpus Christi',
+    article: 3,
     requests: [
       {
         name: 'Academic and Student Support',
@@ -443,6 +458,7 @@ export default [
   },
   {
     agency: 'Texas A&M University - Kingsville',
+    article: 3,
     requests: [
       {
         name: 'STEM and Health Professions Workforce Development Complex',
@@ -465,6 +481,7 @@ export default [
   },
   {
     agency: 'Texas A&M University - San Antonio',
+    article: 3,
     requests: [
       {
         name:
@@ -482,6 +499,7 @@ export default [
   },
   {
     agency: 'Texas A&M University - Texarkana',
+    article: 3,
     requests: [
       {
         name: 'Better East Texas (BET) Initiative',
@@ -498,6 +516,7 @@ export default [
   },
   {
     agency: 'Texas A&M University at Galveston',
+    article: 3,
     requests: [
       {
         name: 'Exploration to Graduation (EXPLORE)',
@@ -522,9 +541,11 @@ export default [
   },
   {
     agency: 'Texas A&M University System Administrative and General Offices',
+    article: 3,
   },
   {
     agency: 'Texas A&M University System Health Science Center',
+    article: 3,
     requests: [
       {
         name: 'Healthy Texas',
@@ -548,6 +569,7 @@ export default [
   },
   {
     agency: 'Texas A&M Veterinary Medical Diagnosis Laboratory',
+    article: 3,
     requests: [
       {
         name: 'Funding TVMDL Poultry Laboratories',

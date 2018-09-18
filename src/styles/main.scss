@@ -43,103 +43,77 @@ header,
   text-align: center;
   // Tone down the background image so text over it is readable
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('../images/money.jpg');
-  color: #fff;
+  color: #FFF;
 }
 
 main {
-  padding: 1em;
+  padding: 2em 1em;
   flex: 1;  
-}
 
-#agency-input {
-  width: 60%;
-}
-
-.dropdown-section {
-  text-align: center;
-  padding: 1em 0;
-
-  label {
+  #menu {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
     display: block;
-    margin-bottom: 0.5em;
-  }
-}
-
-#dropdown-select {
-  margin-top: 15px;
-  width: 100%;
-  max-width: 450px;
-}
-
-.start-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-
-  .start-text {
-    flex: 1;
-  }
-}
-
-.start-text,
-.no-requests {
-  font-size: 20px;
-  max-width: 450px;
-  margin: 0 auto;
-  line-height: 1.5;
-  text-align: center;
-}
-
-#agency-name {
-  text-align: center;
-}
-
-#info-section {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-#requests {
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-.request {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin: 10px 0;
-  border-top: 1px solid var(--black-color);
-  padding: 10px 0 0;
-
-  li {
-    display: inline-block;
-    padding: 6px;
   }
 
-  .req-name {
-    line-height: 1.35;
-  }
+  .info-section {
+    max-width: 900px;
+    margin: 0 auto;
 
-  .req-info {
-    display: flex;
-    justify-content: space-between;
-    max-width: 400px;
+    .agency-name {
+      text-align: center;
+    }
 
-    p {
-      margin: 0;
+    #requests {
+      max-width: 750px;
+      margin: 0 auto;
+
+      .default-text, .no-requests {
+        font-size: 20px;
+        max-width: 450px;
+        margin: 0 auto;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      .request {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 10px 0;
+        border-top: 1px solid var(--black-color);
+        padding: 10px 0 0;
+
+        li {
+          display: inline-block;
+          padding: 6px;
+        }
+
+        .req-name, .notes {
+          line-height: 1.35;
+        }
+
+        .req-info {
+          display: flex;
+          justify-content: space-between;
+          max-width: 400px;
+
+          p {
+            margin: 0;
+          }
+        }
+
+        .notes {
+          font-style: italic;
+        }
+      }
+
+      .request::first-of-type {
+        border: none;
+      }
     }
   }
-
-  .notes {
-    font-style: italic;
-    line-height: 1.35;
-  }
-}
-
-.request:first-of-type {
-  border: none;
 }
 
 footer {
@@ -148,20 +122,20 @@ footer {
     font-style: italic;
     line-height: 1.5;
     text-align: center;
-    margin: 0 auto 1em;;
+    margin: 0 auto 1em;
     padding: 0 1em;
-  }
-
-  a {
-    color: #fff;
-  }
-
-  a:active {
-    color: #ccc;
   }
 
   .footer-link {
     margin: 0;
     padding: 1.5em;
+
+    a {
+      color: #FFF;
+    }
+  
+    a:active {
+      color: #CCC;
+    }  
   }
 }

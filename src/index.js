@@ -1,32 +1,60 @@
-// DRY out the SCSS
-// alphabetize everything & order by budget article
-// add more agencies
-
 // Import styles from main SCSS file
 import './styles/main.scss';
 // Import agency data from data file
 import data from './data';
 
 // Grab elements from HTML
-const sel = document.getElementById('dropdown-select');
-const agencyName = document.getElementById('agency-name');
+const menu = document.getElementById('menu');
+const agencyName = document.querySelector('.agency-name');
 const requestsRender = document.getElementById('requests');
-const selector = document.querySelector('.selector');
 
 // Populate the dropdown menu options with agency names and include a default
 // value "Choose an agency..."
 let agencyOptions = [];
 agencyOptions.push(`<option value="">Choose an agency...</option>`);
-data
-  .map(agency => {
-    return agencyOptions.push(`<option>${agency.agency}</option>`);
-  })
-  .join('');
-sel.innerHTML = agencyOptions.join('');
+
+// Loop over the data and sort agencies into budget article group (1-8)
+// and alphabetize agencies within those article groups
+for (let i = 1; i < 9; i++) {
+  // Array to temporarily store all agencies in a single budget article
+  // in order to .sort() later
+  let tempArray = [];
+  // Push the article number as an <optgroup> to the final array to show up before
+  // each agency in the dropdown list in that budget article
+  agencyOptions.push(`<optgroup label="Article ${i.toString()}">`);
+  // Map over the data and push the agency name to the tempArray if it has the same value
+  // for article as the current value of i in the loop
+  data.map(agency => {
+    if (agency.article === i) {
+      // push the agency name to tempArray
+      tempArray.push(agency.agency);
+    }
+  });
+  // Sort the agencies in tempArray alphabetically
+  let sorted = tempArray.sort((a, b) => {
+    let nameA = a.toLowerCase();
+    let nameB = b.toLowerCase();
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  });
+  // Push the sorted agency names to the final array inside <option> tags
+  sorted.map(agency => {
+    agencyOptions.push(`<option>${agency}</option>`);
+  });
+  // Push the closing <optgroup> tag for each article set of agencies
+  agencyOptions.push('</optgroup>');
+}
+// Push everything to the page/dropdown menu
+menu.innerHTML = agencyOptions.join('');
 
 // Add event listener to the select element and populate the data on the page when an agency
 // is chosen
-selector.addEventListener('change', function(e) {
+menu.addEventListener('change', function(e) {
   if (data.find(agency => agency.agency === e.target.value) !== undefined) {
     const found = data.find(agency => agency.agency === e.target.value);
 
@@ -52,15 +80,15 @@ selector.addEventListener('change', function(e) {
           return requests.push(`
       <ul class="request">
         <li class="req-name">${request.name}</li>
-        <li class="req-info"><p class="year">2020</p><p class="dollars">$${yOneDollar}</p></li>
-        <li class="req-info"><p class="year">2021</p><p class="dollars">$${yTwoDollar}</p></li>
+        <li class="req-info"><p>2020</p><p>$${yOneDollar}</p></li>
+        <li class="req-info"><p>2021</p><p>$${yTwoDollar}</p></li>
       </ul>`);
         } else {
           return requests.push(`
       <ul class="request">
         <li class="req-name">${request.name}</li>
-        <li class="req-info"><p class="year">2020</p><p class="dollars">$${yOneDollar}</p></li>
-        <li class="req-info"><p class="year">2021</p><p class="dollars">$${yTwoDollar}</p></li>
+        <li class="req-info"><p>2020</p><p>$${yOneDollar}</p></li>
+        <li class="req-info"><p>2021</p><p>$${yTwoDollar}</p></li>
         <li class="notes">Note: ${request.note}</li>
       </ul>
     `);
