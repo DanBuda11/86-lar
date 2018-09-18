@@ -33,8 +33,16 @@ module.exports = {
         loader: 'babel-loader',
       },
       // {
-      //   test: /\.ico$/,
-      //   loader: 'file-loader?name=[name].[ext]',
+      //   test: /\.(png|svg|jp(e*)g|gif)$/,
+      //   use: [
+      //     {
+      //       loader: 'url-loader',
+      //       options: {
+      //         limit: 8000,
+      //         name: 'images/[name].[ext]',
+      //       },
+      //     },
+      //   ],
       // },
     ],
   },
@@ -44,7 +52,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: '86th Legislature Exceptional Item Requests',
       template: 'src/views/index.html',
-      favicon: 'dollar.ico'
+      favicon: 'dollar.ico',
     }),
     new BrowserSyncPlugin(
       {

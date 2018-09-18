@@ -10,6 +10,16 @@ const selector = document.querySelectorAll('.selector');
 // AND separate them by budget article!!! So basically they show
 // up in the same order as on the LBB website
 
+// To complete:
+  // alphabetize everything & order by budget article
+  // finish styling including for phone and tablet
+  // clean up and DRY code including SCSS nesting and remove unnecessary SCSS
+  // comment everything
+  // finish readme
+  // add more agencies)
+  // can I make the header and footer a cool image darkened with white text over it?
+    // Like a money image or something?
+
 selector.forEach(function(select) {
   select.addEventListener('change', function(e) {
     if (data.find(agency => agency.agency === e.target.value) !== undefined) {
