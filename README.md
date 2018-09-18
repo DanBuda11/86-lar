@@ -1,6 +1,6 @@
 # Exceptional Item Request Database
 
-<kbd>![Image](money.jpg)</kbd>
+<kbd>![Image](86-lar-small.png)</kbd>
 
 Renders budget requests for exceptional items by Texas Agencies found in their Legislative Appropriations Requests for the 86th Texas Legislative session.
 
