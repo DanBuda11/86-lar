@@ -42,7 +42,6 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
-      title: '86th Legislature Exceptional Item Requests',
       template: 'src/views/index.html',
       favicon: 'dollar.ico',
     }),
