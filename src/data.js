@@ -583,4 +583,112 @@ export default [
       },
     ],
   },
+  {
+    agency: 'Department of Family and Protective Services',
+    article: 2,
+    requests: [
+      {
+        name: 'Maintain Current Caseloads for Child Protective Services and Child Protective Investigations Caseworkers and Statewide Intake',
+        yOne: 49646771,
+        yTwo: 67134438
+      },
+      {
+        name: 'Maintain Current Client Services',
+        yOne: 61801696,
+        yTwo: 74826754
+      },
+      {
+        name: 'Strengthen Agency Operations',
+        yOne: 5878548,
+        yTwo: 5616951
+      },
+      {
+        name: 'Improve Outcomes by Retaining APS Caseworkers and SWI Intake Specialists',
+        yOne: 11080322,
+        yTwo: 11080322
+      },
+      {
+        name: 'Child Protective Services Initiatives and Operations',
+        yOne: 10183056,
+        yTwo: 9541710
+      },
+      {
+        name: 'Sustain and Expand Community Based Care',
+        yOne: 24099292,
+        yTwo: 38495290
+      },
+      {
+        name: 'Child Protective Investigations Initiatives and Operations',
+        yOne: 5024864,
+        yTwo: 4707453,
+        note: '71 FTEs'
+      },
+      {
+        name: 'Expanded Prevention and Early Intervention Programs',
+        yOne: 15416811,
+        yTwo: 15384465
+      },
+    ]
+  },
+  {
+    agency: 'Department of State Health Services',
+    article: 2,
+    requests: [
+      {
+        name: 'Safeguard the Future of the State Public Health Laboratory',
+        yOne: 45647023,
+        yTwo: 22970840,
+        note: '12 FTEs'
+      },
+      {
+        name: 'Maintain Required Agency IT Infrastructure',
+        yOne: 3267931,
+        yTwo: 3493721
+      },
+      {
+        name: 'Combat Maternal Mortality and Morbidity in Texas',
+        yOne: 3500000,
+        yTwo: 3500000,
+        note: '8 FTEs'
+      },
+      {
+        name: 'Increase the Quality and Security of Vital Events Records',
+        yOne: 3134285,
+        yTwo: 3116855,
+        note: '25 FTEs'
+      },
+      {
+        name: 'Ensure Stable Staffing of Technical and Scientific Public Health Positions',
+        yOne: 4402041,
+        yTwo: 4402041
+      },
+      {
+        name: 'Detect and Control the Spread of Tuberculosis in Texas',
+        yOne: 14649042,
+        yTwo: 12608779,
+        note: '28 FTEs'
+      },
+      {
+        name: 'Drive Public Health Decision-Making through Useful and Accesible Data',
+        yOne: 2822623,
+        yTwo: 1732026,
+        note: '7 FTEs'
+      },
+      {
+        name: 'Bolster public health capacity to identify and respond to infectious disease outbreaks',
+        yOne: 3471403,
+        yTwo: 2854721,
+        note: '15 FTEs'
+      },
+      {
+        name: 'Replace Vehicles at the End of Their Life Cycle',
+        yOne: 2505972,
+        yTwo: 0
+      },
+    ]
+  },
+  {
+    agency: 'Health and Human Services Commission',
+    article: 2
+  },
 ];
