@@ -8,53 +8,47 @@ html {
   box-sizing: inherit;
 }
 
+// Set a black-ish color variable
 :root {
   --black-color: #222;
-}
-
-h1,
-p {
-  margin: 0;
 }
 
 body {
   font-family: sans-serif;
   color: var(--black-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
-  height: 10em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  // background-image: url('../images/money.jpg');
-
-  @media (min-width: 504px) {
-    height: 6rem;
-  }
 
   h1 {
     padding: 0 0.3em;
+    font-weight: 400;
+    margin: 0.5em 0 0;
+    line-height: 1.35;
+  }
 
-    @media (min-width: 504px) {
-    }
+  p {
+    margin-top: 1em;
   }
 }
 
 header,
-footer {
+.footer-link {
   text-align: center;
-  background: #445bde;
+  // Tone down the background image so text over it is readable
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('../images/money.jpg');
   color: #fff;
 }
 
 main {
-  min-height: calc(100vh - 14rem);
   padding: 1em;
-
-  @media (min-width: 504px) {
-    min-height: calc(100vh - 10rem);
-  }
+  flex: 1;  
 }
 
 #agency-input {
@@ -78,17 +72,13 @@ main {
 }
 
 .start-container {
-  .start-text {
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 
-  .disclaimer {
-    font-size: 15px;
-    font-style: italic;
-    max-width: 450px;
-    line-height: 1.5;
-    text-align: center;
-    padding-top: 6em;
-    margin: 0 auto;
+  .start-text {
+    flex: 1;
   }
 }
 
@@ -99,10 +89,6 @@ main {
   margin: 0 auto;
   line-height: 1.5;
   text-align: center;
-}
-
-.no-requests {
-  padding-top: 3.5em;
 }
 
 #agency-name {
@@ -133,12 +119,17 @@ main {
   }
 
   .req-name {
+    line-height: 1.35;
   }
 
   .req-info {
     display: flex;
     justify-content: space-between;
     max-width: 400px;
+
+    p {
+      margin: 0;
+    }
   }
 
   .notes {
@@ -152,7 +143,14 @@ main {
 }
 
 footer {
-  height: 4em;
+  .disclaimer {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto 1em;;
+    padding: 0 1em;
+  }
 
   a {
     color: #fff;
@@ -162,7 +160,8 @@ footer {
     color: #ccc;
   }
 
-  p {
-    line-height: 4rem;
+  .footer-link {
+    margin: 0;
+    padding: 1.5em;
   }
 }

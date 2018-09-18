@@ -32,18 +32,10 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
-      // {
-      //   test: /\.(png|svg|jp(e*)g|gif)$/,
-      //   use: [
-      //     {
-      //       loader: 'url-loader',
-      //       options: {
-      //         limit: 8000,
-      //         name: 'images/[name].[ext]',
-      //       },
-      //     },
-      //   ],
-      // },
+      {
+        test: /\.(png|svg|jp(e*)g|gif)$/,
+        use: ['file-loader'],
+      },
     ],
   },
   plugins: [
