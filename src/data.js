@@ -588,47 +588,49 @@ export default [
     article: 2,
     requests: [
       {
-        name: 'Maintain Current Caseloads for Child Protective Services and Child Protective Investigations Caseworkers and Statewide Intake',
+        name:
+          'Maintain Current Caseloads for Child Protective Services and Child Protective Investigations Caseworkers and Statewide Intake',
         yOne: 49646771,
-        yTwo: 67134438
+        yTwo: 67134438,
       },
       {
         name: 'Maintain Current Client Services',
         yOne: 61801696,
-        yTwo: 74826754
+        yTwo: 74826754,
       },
       {
         name: 'Strengthen Agency Operations',
         yOne: 5878548,
-        yTwo: 5616951
+        yTwo: 5616951,
       },
       {
-        name: 'Improve Outcomes by Retaining APS Caseworkers and SWI Intake Specialists',
+        name:
+          'Improve Outcomes by Retaining APS Caseworkers and SWI Intake Specialists',
         yOne: 11080322,
-        yTwo: 11080322
+        yTwo: 11080322,
       },
       {
         name: 'Child Protective Services Initiatives and Operations',
         yOne: 10183056,
-        yTwo: 9541710
+        yTwo: 9541710,
       },
       {
         name: 'Sustain and Expand Community Based Care',
         yOne: 24099292,
-        yTwo: 38495290
+        yTwo: 38495290,
       },
       {
         name: 'Child Protective Investigations Initiatives and Operations',
         yOne: 5024864,
         yTwo: 4707453,
-        note: '71 FTEs'
+        note: '71 FTEs',
       },
       {
         name: 'Expanded Prevention and Early Intervention Programs',
         yOne: 15416811,
-        yTwo: 15384465
+        yTwo: 15384465,
       },
-    ]
+    ],
   },
   {
     agency: 'Department of State Health Services',
@@ -638,57 +640,548 @@ export default [
         name: 'Safeguard the Future of the State Public Health Laboratory',
         yOne: 45647023,
         yTwo: 22970840,
-        note: '12 FTEs'
+        note: '12 FTEs',
       },
       {
         name: 'Maintain Required Agency IT Infrastructure',
         yOne: 3267931,
-        yTwo: 3493721
+        yTwo: 3493721,
       },
       {
         name: 'Combat Maternal Mortality and Morbidity in Texas',
         yOne: 3500000,
         yTwo: 3500000,
-        note: '8 FTEs'
+        note: '8 FTEs',
       },
       {
         name: 'Increase the Quality and Security of Vital Events Records',
         yOne: 3134285,
         yTwo: 3116855,
-        note: '25 FTEs'
+        note: '25 FTEs',
       },
       {
-        name: 'Ensure Stable Staffing of Technical and Scientific Public Health Positions',
+        name:
+          'Ensure Stable Staffing of Technical and Scientific Public Health Positions',
         yOne: 4402041,
-        yTwo: 4402041
+        yTwo: 4402041,
       },
       {
         name: 'Detect and Control the Spread of Tuberculosis in Texas',
         yOne: 14649042,
         yTwo: 12608779,
-        note: '28 FTEs'
+        note: '28 FTEs',
       },
       {
-        name: 'Drive Public Health Decision-Making through Useful and Accesible Data',
+        name:
+          'Drive Public Health Decision-Making through Useful and Accesible Data',
         yOne: 2822623,
         yTwo: 1732026,
-        note: '7 FTEs'
+        note: '7 FTEs',
       },
       {
-        name: 'Bolster public health capacity to identify and respond to infectious disease outbreaks',
+        name:
+          'Bolster public health capacity to identify and respond to infectious disease outbreaks',
         yOne: 3471403,
         yTwo: 2854721,
-        note: '15 FTEs'
+        note: '15 FTEs',
       },
       {
         name: 'Replace Vehicles at the End of Their Life Cycle',
         yOne: 2505972,
-        yTwo: 0
+        yTwo: 0,
       },
-    ]
+    ],
   },
   {
     agency: 'Health and Human Services Commission',
-    article: 2
+    article: 2,
+  },
+  {
+    agency: 'Alcoholic Beverage Commission',
+    article: 5,
+    requests: [
+      {
+        name: 'Public Safety Technology Replacement',
+        yOne: 3383172,
+        yTwo: 2752948,
+        note: 'Creates 5 FTEs',
+      },
+      {
+        name: 'Licensing and Tax Collection Technology Replacement',
+        yOne: 4177273,
+        yTwo: 3211773,
+        note: 'Creates 5 FTEs',
+      },
+      {
+        name: 'Border Security and Public Safety',
+        yOne: 7117803,
+        yTwo: 4979823,
+        note: 'Creates 64 FTEs',
+      },
+      {
+        name: 'Enforcement Vehicles',
+        yOne: 462000,
+        yTwo: 462000,
+      },
+      {
+        name: 'Cybersecurity',
+        yOne: 506027,
+        yTwo: 242366,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name:
+          'Centralized Accounting and Payroll Personnel System (CAPPS) Support',
+        yOne: 151232,
+        yTwo: 149732,
+        note: 'Creates 2 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'Commission on Fire Protection',
+    article: 5,
+  },
+  {
+    agency: 'Commission on Jail Standards',
+    article: 5,
+    requests: [
+      {
+        name: 'Administrative Assistant III',
+        yOne: 45140,
+        yTwo: 45140,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Manager I',
+        yOne: 64640,
+        yTwo: 64640,
+        note: 'Creates 1 FTE',
+      },
+    ],
+  },
+  {
+    agency: 'Commission on Law Enforcement',
+    article: 5,
+    requests: [
+      {
+        name: 'Rent Adjustment',
+        yOne: 34996,
+        yTwo: 41231,
+      },
+      {
+        name: 'Equity Adjustment',
+        yOne: 137264,
+        yTwo: 137264,
+      },
+      {
+        name: 'Curriculum Development and Review',
+        yOne: 234992,
+        yTwo: 234992,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'IT Security and Network Operations',
+        yOne: 333052,
+        yTwo: 251052,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'Reinstatement of 4% Funding Cuts',
+        yOne: 127767,
+        yTwo: 127767,
+      },
+      {
+        name: 'Staff Attorney',
+        yOne: 154552,
+        yTwo: 154552,
+        note: 'Creates 2 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'Department of Criminal Justice',
+    article: 5,
+    requests: [
+      {
+        name: 'Repair/Renovation of Buildings & Facilities',
+        yOne: 74420000,
+        yTwo: 71580000,
+      },
+      {
+        name:
+          'Correctional Officer and Parole Officer - Career Ladder Restructure / Pay Raise',
+        yOne: 84064570,
+        yTwo: 84064570,
+      },
+      {
+        name: 'Specialized Correctional Housing',
+        yOne: 18483743,
+        yTwo: 13983743,
+        note: 'Creates 74 FTEs',
+      },
+      {
+        name: 'Probation Specialized Programs - Treatment/Supervision',
+        yOne: 16079253,
+        yTwo: 16079253,
+      },
+      {
+        name: 'Pretrial Diversion Funding',
+        yOne: 4000000,
+        yTwo: 4000000,
+      },
+      {
+        name: 'Offender Health Care',
+        yOne: 131061829,
+        yTwo: 150213757,
+      },
+      {
+        name: 'Comprehensive Video Surveillance System',
+        yOne: 13000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Additional TCOOMMI Funding',
+        yOne: 6565000,
+        yTwo: 6465000,
+      },
+      {
+        name: 'Corrections Information Technology System Project',
+        yOne: 16093000,
+        yTwo: 8071000,
+      },
+      {
+        name: 'Additional Vocational Training',
+        yOne: 1000000,
+        yTwo: 1000000,
+      },
+      {
+        name:
+          'Educational and Vocational Training Programs (HB 3130, 85th Legislature)',
+        yOne: 2628000,
+        yTwo: 2628000,
+      },
+      {
+        name: 'Board of Pardons and Paroles - Parole Officer Pay Raise',
+        yOne: 1553654,
+        yTwo: 1568347,
+      },
+      {
+        name:
+          'Board of Pardons and Paroles - Relocate the Gatesville and Angleton Board and Institutional Parole Offices',
+        yOne: 100055,
+        yTwo: 391912,
+      },
+      {
+        name: 'Board of Pardons and Paroles - Victim Liaison',
+        yOne: 153465,
+        yTwo: 153465,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name:
+          'Board of Pardons and Paroles - Revocation Hearing Attorney Fee Increase',
+        yOne: 278902,
+        yTwo: 278902,
+      },
+      {
+        name:
+          'Board of Pardons and Paroles - Consultant Services: Parole Guideline Reviwe and Enhancements',
+        yOne: 150000,
+        yTwo: 150000,
+      },
+    ],
+  },
+  {
+    agency: 'Department of Public Safety',
+    article: 5,
+    requests: [
+      {
+        name: 'Improve Driver License Services',
+        yOne: 230600862,
+        yTwo: 189433152,
+        note: 'Creates 1,914 FTEs',
+      },
+      {
+        name: 'Law Enforcement Aircaft and Vehicle Replacement',
+        yOne: 142641837,
+        yTwo: 3221363,
+        note: 'Creates 13 FTEs',
+      },
+      {
+        name: 'Improve Crime Lab Services',
+        yOne: 29149190,
+        yTwo: 20641295,
+        note: 'Creates 122 FTEs',
+      },
+      {
+        name: 'Maintain Commissioned Staff Levels: Recruit School Funding',
+        yOne: 5000000,
+        yTwo: 5000000,
+      },
+      {
+        name:
+          "Maintain DPS' Core Operational Capacity by Supporting Critical Staff",
+        yOne: 14596868,
+        yTwo: 14596868,
+        note: 'Creates 212.4 FTEs',
+      },
+      {
+        name: "Secure DPS' IT Operations against Cyber and Disaster Events",
+        yOne: 8866064,
+        yTwo: 5740875,
+        note: 'Creates 7 FTEs',
+      },
+      {
+        name: 'Improve School Security',
+        yOne: 1902289,
+        yTwo: 1664018,
+        note: 'Creates 22.5 FTEs',
+      },
+      {
+        name:
+          'Address Rising Costs of Leases, Facility Support, and Building Maintenance',
+        yOne: 31343143,
+        yTwo: 8712712,
+        note: 'Creates 25 FTEs',
+      },
+      {
+        name:
+          "Improve DPS' Procurement, Contracts, Facilities and Other Support Functions",
+        yOne: 20134575,
+        yTwo: 11998243,
+        note: 'Creates 76 FTEs',
+      },
+      {
+        name: 'Improve Crime Scene Investigations',
+        yOne: 4822737,
+        yTwo: 1920683,
+        note: 'Creates 16 FTEs',
+      },
+      {
+        name: 'Address Human Trafficking & Anti-Gang Activities',
+        yOne: 38068135,
+        yTwo: 22716596,
+        note: 'Creates 204.7 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'Juvenile Justice Department',
+    article: 5,
+    requests: [
+      {
+        name:
+          'Continuation of the Texas Juvenile Justice System Reform Efforts',
+        yOne: 19354664,
+        yTwo: 17788005,
+        note: 'Creates 53.5 FTEs',
+      },
+      {
+        name: 'Funding for Office of Independent Ombudsman',
+        yOne: 45000,
+        yTwo: 45000,
+      },
+      {
+        name:
+          'Funding for Office of Inspector General Pay Parity and Vehicle Needs',
+        yOne: 925253,
+        yTwo: 625253,
+      },
+      {
+        name: 'Replace Legacy Video Recording Systems',
+        yOne: 9750000,
+        yTwo: 0,
+      },
+      {
+        name: 'Funding to support a Learning Management System',
+        yOne: 300000,
+        yTwo: 0,
+      },
+      {
+        name: 'Address Repair and Rehabilitation Needs at State Facilities',
+        yOne: 5000000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Military Department',
+    article: 5,
+    requests: [
+      {
+        name: 'Texas State Guard Expansion',
+        yOne: 6243568,
+        yTwo: 6515166,
+        note: 'Creates 34 FTEs',
+      },
+      {
+        name: 'Agency Emergency & Disaster Preparedness',
+        yOne: 2902455,
+        yTwo: 2902455,
+        note: 'Creates 33 FTEs',
+      },
+      {
+        name: 'Facilities Management Operations',
+        yOne: 76027626,
+        yTwo: 76027626,
+      },
+      {
+        name: 'Mental Health & Service Member Care',
+        yOne: 855000,
+        yTwo: 855000,
+        note: 'Creates 8 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'Department of Housing and Community Affairs',
+    article: 7,
+  },
+  {
+    agency: 'Department of Motor Vehicles',
+    article: 7,
+    requests: [
+      {
+        name: 'Information Technology Infrastructure Improvements',
+        yOne: 1850000,
+        yTwo: 850000,
+      },
+      {
+        name: 'Information Technology Development & Maintenance',
+        yOne: 1006914,
+        yTwo: 915654,
+        note: 'Creates 12 FTEs',
+      },
+      {
+        name: 'Consumer Protection and Tracking',
+        yOne: 470000,
+        yTwo: 97500,
+      },
+      {
+        name: 'Customer Service Enhancement',
+        yOne: 486090,
+        yTwo: 417915,
+        note: 'Creates 9 FTEs',
+      },
+      {
+        name: "Broaden ABTPA's Statutory Mandate",
+        yOne: 6551280,
+        yTwo: 6551280,
+      },
+    ],
+  },
+  {
+    agency: 'Department of Transportation',
+    article: 7,
+    requests: [
+      {
+        name: 'GO Bond Debt Service Payments',
+        yOne: 311852000,
+        yTwo: 307378000,
+      },
+      {
+        name: 'Veteran Toll Discount Program',
+        yOne: 9285000,
+        yTwo: 11140000,
+      },
+      {
+        name: 'Rail - SORR Rehab Sulfur/Ft Stockton',
+        yOne: 12800000,
+        yTwo: 0,
+      },
+      {
+        name: 'Rail - SORR Rehab Ft Stockton/Belding',
+        yOne: 8000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Rail - SORR Rehab Paisano',
+        yOne: 3000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Rail - SORR Inspection Facilities',
+        yOne: 500000,
+        yTwo: 0,
+      },
+      {
+        name: 'Aviation Facilities Development',
+        yOne: 4000000,
+        yTwo: 4000000,
+      },
+      {
+        name: 'Rural Public Tranit Program',
+        yOne: 41000000,
+        yTwo: 41000000,
+      },
+      {
+        name: 'Maritime - Ports Capital Program',
+        yOne: 125000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Ship Channel Improvement Revolving Fund',
+        yOne: 450000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Rail - NETEX',
+        yOne: 6000000,
+        yTwo: 4000000,
+      },
+      {
+        name: 'Rail - Heartland Flyer',
+        yOne: 2500000,
+        yTwo: 2500000,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Lottery Commission',
+    article: 7,
+    requests: [
+      {
+        name: 'Construction Required for TX Capital Complex Building',
+        yOne: 0,
+        yTwo: 1815137,
+      },
+      {
+        name: 'Restore Retailer Bonus Program',
+        yOne: 4200000,
+        yTwo: 4200000,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Workforce Commission',
+    article: 7,
+    requests: [
+      {
+        name: 'Jobs and Education for Texans (JET) Program Expansion',
+        yOne: 3000000,
+        yTwo: 3000000,
+      },
+      {
+        name: 'Apprenticeship Training Program',
+        yOne: 480000,
+        yTwo: 865000,
+      },
+      {
+        name: 'Unemployment Insurance System Replacement',
+        yOne: 40000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Workforce Case Management System',
+        yOne: 18853281,
+        yTwo: 0,
+      },
+      {
+        name: 'Eligible Training Provider and Career Schools System',
+        yOne: 1178276,
+        yTwo: 0,
+      },
+    ],
   },
 ];
