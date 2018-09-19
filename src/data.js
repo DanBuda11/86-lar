@@ -1184,4 +1184,255 @@ export default [
       },
     ],
   },
+  {
+    agency: 'Animal Health Commission',
+    article: 6,
+    requests: [
+      {
+        name: 'Agency Modernization - IT Business Initiative',
+        yOne: 269000,
+        yTwo: 131000,
+      },
+      {
+        name: 'Inspector Salary Increases',
+        yOne: 374400,
+        yTwo: 374400,
+      },
+    ],
+  },
+  {
+    agency: 'Commission on Environmental Quality',
+    article: 6,
+    requests: [
+      {
+        name: 'Expedited Processing of Air Permit Applications',
+        yOne: 1070000,
+        yTwo: 1070000,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: 'Enhance the Municipal Solid Waste Program',
+        yOne: 544308,
+        yTwo: 387708,
+        note: 'Creates 8 FTEs',
+      },
+      {
+        name: 'Supplemental Hazardous Waste Funding',
+        yOne: 524000,
+        yTwo: 524000,
+      },
+      {
+        name: 'Enhance and Expand Mobile Monitoring for Field Investigators',
+        yOne: 1531500,
+        yTwo: 0,
+      },
+      {
+        name:
+          'Legacy Modernization: State of Texas Air Reporting System (STARS)',
+        yOne: 2000000,
+        yTwo: 541165,
+      },
+      {
+        name:
+          'Centralized Accounting and Payroll, Personnel System Human Resource and Payroll System Implementation',
+        yOne: 833997,
+        yTwo: 768996,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: 'Vehicles and Other Transporation Items',
+        yOne: 554765,
+        yTwo: 347472,
+      },
+      {
+        name: 'Corpus Christi Lease',
+        yOne: 242500,
+        yTwo: 580230,
+      },
+      {
+        name: 'Litigation for Rio Grande Compact Commission',
+        yOne: 0,
+        yTwo: 2351629,
+      },
+    ],
+  },
+  {
+    agency: 'Department of Agriculture',
+    article: 6,
+    requests: [
+      {
+        name: 'Rural and Agricultural Business Assistance',
+        yOne: 1750000,
+        yTwo: 1750000,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'Agriculture Entry Point Inspections (Road Stations)',
+        yOne: 3329540,
+        yTwo: 4245540,
+        note: 'Creates 36 FTEs',
+      },
+      {
+        name: 'Information System Security Strategy',
+        yOne: 650586,
+        yTwo: 322786,
+      },
+      {
+        name: 'Consolidation and Modernization of Legacy Systems',
+        yOne: 6000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Access to Rural Health Services',
+        yOne: 270000,
+        yTwo: 270000,
+      },
+      {
+        name: 'Organic Certification Software',
+        yOne: 65050,
+        yTwo: 26050,
+      },
+    ],
+  },
+  {
+    agency: "General Land Office and Veterans' Land Board",
+    article: 6,
+    requests: [
+      {
+        name:
+          'Implementation of Centralized Accounting and Payroll / Personnel System (CAPPS) HR / Payroll / Timekeeping Module',
+        yOne: 1426021,
+        yTwo: 0,
+      },
+      {
+        name: 'Community Disaster Recovery FEMA Contingency Funds',
+        yOne: 2130765,
+        yTwo: 2086745,
+        note: 'Creates 20 FTEs',
+      },
+      {
+        name:
+          'Hurricane Harvey Texas Coastal Program Damages FUnding Need and State Share',
+        yOne: 21929091,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Low-Level Radioactive Waste Disposal Compact Commission',
+    article: 6,
+  },
+  {
+    agency: 'Parks and Wildlife Department',
+    article: 6,
+    requests: [
+      {
+        name:
+          'Address Increased Park Visitation, Usage and Related Cost Increases',
+        yOne: 7836391,
+        yTwo: 7530456,
+        note: 'Creates 46 FTEs',
+      },
+      {
+        name: 'Development of Palo Pinto Mountains State Park',
+        yOne: 12500000,
+        yTwo: 0,
+      },
+      {
+        name:
+          'Fund Critical Deferred Maintenance, Capital Construction and Repair Needs',
+        yOne: 24674679,
+        yTwo: 15905804,
+      },
+      {
+        name: 'Provide Law Enforcement Training, Equipment & Aircraft',
+        yOne: 14500000,
+        yTwo: 1500000,
+      },
+      {
+        name: 'Implement CAPPS Financials',
+        yOne: 1505115,
+        yTwo: 707249,
+        note: 'Creates 12.5 FTEs',
+      },
+      {
+        name: 'Address Hurricane Harvey Damages',
+        yOne: 9000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Provide Local Park Grant Funding',
+        yOne: 2500000,
+        yTwo: 2500000,
+      },
+      {
+        name: 'Dry-Berth Battleship Texas',
+        yOne: 100000000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Railroad Commission',
+    article: 6,
+    requests: [
+      {
+        name: 'Additional Pipeline Safety and Oil & Gas Inspectors FTEs',
+        yOne: 0,
+        yTwo: 0,
+        note:
+          'Request is for 22 additional FTEs. No additional funding is requested.',
+      },
+    ],
+  },
+  {
+    agency: 'Soil and Water Conservation Board',
+    article: 6,
+    requests: [
+      {
+        name: 'Water Supply Enhancement Projects',
+        yOne: 2057500,
+        yTwo: 2057500,
+      },
+      {
+        name: 'Flood Control Dam Operation, Maintenance, and Structural Repair',
+        yOne: 1500000,
+        yTwo: 1500000,
+      },
+    ],
+  },
+  {
+    agency: 'Water Development Board',
+    article: 6,
+    requests: [
+      {
+        name: 'Flood Technical Package',
+        yOne: 2474000,
+        yTwo: 1974000,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: 'Groundwater Funding Package',
+        yOne: 1800000,
+        yTwo: 1200000,
+        note: 'Creates 6 FTEs',
+      },
+      {
+        name: 'Strategic Mapping Program',
+        yOne: 3000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Data Center Consolidation',
+        yOne: 331409,
+        yTwo: 157555,
+      },
+      {
+        name: 'CAPPS Implementation',
+        yOne: 0,
+        yTwo: 588063,
+        note: 'Creates 5 FTEs for the 2021 budget year',
+      },
+    ],
+  },
 ];
