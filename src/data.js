@@ -2159,4 +2159,469 @@ export default [
       },
     ],
   },
+  {
+    agency: 'Board of Chiropractic Examiners',
+    article: 8,
+    requests: [
+      {
+        name: 'Database Implementation and Maintenance',
+        yOne: 30000,
+        yTwo: 30000,
+      },
+      {
+        name: 'Health Professions Council',
+        yOne: 1487,
+        yTwo: 1487,
+      },
+      {
+        name: 'Upgrade Investigator and Enforcement Positions',
+        yOne: 40000,
+        yTwo: 40000,
+      },
+    ],
+  },
+  {
+    agency: 'Board of Examiners of Psychologists',
+    article: 8,
+    requests: [
+      {
+        name: 'Targeted Merit Salary Increases for Exempt and Classified Staff',
+        yOne: 48720,
+        yTwo: 48720,
+      },
+      {
+        name: 'New FTE Attorney II',
+        yOne: 60900,
+        yTwo: 60900,
+        note: 'Creates 1 FTE',
+      },
+    ],
+  },
+  {
+    agency: 'Board of Pharmacy',
+    article: 8,
+    requests: [
+      {
+        name: 'Prescription Monitoring Program',
+        yOne: 2589958,
+        yTwo: 2579928,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Services & Subscriptions',
+        yOne: 179400,
+        yTwo: 179400,
+      },
+      {
+        name: 'Merit Pay',
+        yOne: 137164,
+        yTwo: 277822,
+      },
+      {
+        name: 'Vehicle Replacement',
+        yOne: 0,
+        yTwo: 22000,
+      },
+      {
+        name: 'New Positions',
+        yOne: 404590,
+        yTwo: 323470,
+        note: 'Creates 5 FTEs',
+      },
+      {
+        name: 'Information Technology',
+        yOne: 40101,
+        yTwo: 40099,
+      },
+      {
+        name: 'Health Profession Council',
+        yOne: 9929,
+        yTwo: 16650,
+      },
+    ],
+  },
+  {
+    agency: 'Board of Plumbing Examiners',
+    article: 8,
+    requests: [
+      {
+        name: 'Consumer Education and Public Awareness',
+        yOne: 129696,
+        yTwo: 122196,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'One (1) New Director Position',
+        yOne: 79856,
+        yTwo: 76856,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name:
+          'Two Examiners to Administer Mobile Examinations Across the State',
+        yOne: 137944,
+        yTwo: 110944,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name:
+          'Compensation to Retain and Obtain Experienced Qualified Personnel',
+        yOne: 75000,
+        yTwo: 75000,
+      },
+      {
+        name:
+          'One (1) Accountant II to Meet Increased Accounting Demands & Segregation of Fiscal Duties Requirement',
+        yOne: 36476,
+        yTwo: 33476,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Information Technology Enhancements',
+        yOne: 25000,
+        yTwo: 25000,
+      },
+      {
+        name: 'Two (2) Additional Investigators for Increased Enforcement',
+        yOne: 160444,
+        yTwo: 109444,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name:
+          'One (1) Additional Customer Service Representative Position for Enforcement Division',
+        yOne: 31939,
+        yTwo: 29939,
+        note: 'Creates 1 FTE',
+      },
+    ],
+  },
+  {
+    agency: 'Board of Professional Geoscientists',
+    article: 8,
+    requests: [
+      {
+        name: 'Administrative Assistant',
+        yOne: 23875,
+        yTwo: 23876,
+        note: 'Creates 1 FTE',
+      },
+    ],
+  },
+  {
+    agency: 'Board of Professional Land Surveying',
+    article: 8,
+  },
+  {
+    agency: 'Board of Veterinary Medical Examiners',
+    article: 8,
+  },
+  {
+    agency: 'Department of Insurance',
+    article: 8,
+    requests: [
+      {
+        name: 'Restore contingency appropriation State Regulatory Response',
+        yOne: 2200000,
+        yTwo: 2200000,
+        note: 'Creates 40 FTEs',
+      },
+      {
+        name: 'Data Center Services',
+        yOne: 701502,
+        yTwo: 701502,
+      },
+    ],
+  },
+  {
+    agency: 'Department of Licensing and Regulation',
+    article: 8,
+    requests: [
+      {
+        name:
+          'Improve license service capabilities and information security - Phase I',
+        yOne: 961000,
+        yTwo: 991000,
+      },
+      {
+        name:
+          'Combat human trafficking through strengthened enforcement and collaboration',
+        yOne: 260514,
+        yTwo: 252580,
+        note: 'Creates 4 FTEs',
+      },
+      {
+        name: 'Ensure efficient processing of licenses',
+        yOne: 130290,
+        yTwo: 125208,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name:
+          'Enhance enforcement strength to protect consumer health and safety',
+        yOne: 218934,
+        yTwo: 209360,
+        note: 'Creates 4 FTEs',
+      },
+    ],
+  },
+  {
+    agency:
+      'Executive Council of Physical Therapy & Occupational Therapy Examiners',
+    article: 8,
+    requests: [
+      {
+        name: 'Replace end of life office furniture',
+        yOne: 2500,
+        yTwo: 0,
+      },
+      {
+        name: 'Replace one of the two agency servers',
+        yOne: 4819,
+        yTwo: 0,
+      },
+      {
+        name:
+          'Unfunded Mandate - Restore employee health care and retirement contribution by agency',
+        yOne: 15300,
+        yTwo: 15300,
+      },
+      {
+        name:
+          'Offset to the increase in thte agency share of the mandatory HPC support',
+        yOne: 5169,
+        yTwo: 5169,
+      },
+    ],
+  },
+  {
+    agency: 'Funeral Services Commission',
+    article: 8,
+    requests: [
+      {
+        name: 'Targeted Accountant Salary Increase or $14,000 per fiscal year',
+        yOne: 14000,
+        yTwo: 14000,
+      },
+      {
+        name: 'Maintain Licensing Technician Salary or $10,000 per fiscal year',
+        yOne: 10000,
+        yTwo: 10000,
+      },
+    ],
+  },
+  {
+    agency: 'Health Professions Council',
+    article: 8,
+    requests: [
+      {
+        name: 'Base - Administration & Support',
+        yOne: 56976,
+        yTwo: 75001,
+      },
+    ],
+  },
+  {
+    agency: 'Office of Injured Employee Counsel',
+    article: 8,
+  },
+  {
+    agency: 'Office of Public Insurance Counsel',
+    article: 8,
+  },
+  {
+    agency: 'Office of Public Utility Counsel',
+    article: 8,
+  },
+  {
+    agency: 'Optometry Board',
+    article: 8,
+    requests: [
+      {
+        name: 'Restoration of Ten Percent Reduction',
+        yOne: 41424,
+        yTwo: 41425,
+        note: 'Creates 0.5 FTEs',
+      },
+      {
+        name: 'Staff Salary Increase',
+        yOne: 7000,
+        yTwo: 7000,
+      },
+      {
+        name: 'Executive Director Salary Increase',
+        yOne: 6000,
+        yTwo: 6000,
+      },
+      {
+        name: 'Travel Increases for Investigation',
+        yOne: 2000,
+        yTwo: 2000,
+      },
+      {
+        name: 'PC Replacement and Scanner Maintenance',
+        yOne: 3000,
+        yTwo: 3000,
+      },
+      {
+        name: 'Travel Cost Increases for Board Members',
+        yOne: 1200,
+        yTwo: 1200,
+      },
+    ],
+  },
+  {
+    agency: 'Public Utility Commission of Texas',
+    article: 8,
+    requests: [
+      {
+        name: 'Water and Wastewater Rate and CCN Program Funding',
+        yOne: 550000,
+        yTwo: 550000,
+      },
+    ],
+  },
+  {
+    agency: 'Racing Commission',
+    article: 8,
+    requests: [
+      {
+        name: 'Information Security Officer/Network Specialist',
+        yOne: 83200,
+        yTwo: 83200,
+        note: 'Creates 1 FTE',
+      },
+    ],
+  },
+  {
+    agency: 'Securities Board',
+    article: 8,
+    requests: [
+      {
+        name:
+          'Recover the amoung of the base budget reduction that occured as a result of accurately reporting the expected lapse of funds for appropriation year 2018',
+        yOne: 139663,
+        yTwo: 139663,
+      },
+      {
+        name: 'Career Ladder',
+        yOne: 383164,
+        yTwo: 492090,
+      },
+      {
+        name: 'Retirement lump sum payment contingency',
+        yOne: 250214,
+        yTwo: 250214,
+      },
+      {
+        name:
+          'Funding for 4 FTEs to handle the increased workload related to emerging regulatory and fraud issues. 2 attorneys Enforcement, 1 attorney Inspections, 1 financial examiner shared by Securities and Dealer.',
+        yOne: 239540,
+        yTwo: 239540,
+        note:
+          "LAR doest't say this creates any FTEs but the wording of the request implies they would be new.",
+      },
+      {
+        name:
+          "Subscribe to certain portions of DIR's Managed Security Services to increase the Agency's cybersecurity protections. Funding to increase the Agency's transition to Microsoft SharePoint cloud storage.",
+        yOne: 172040,
+        yTwo: 172040,
+      },
+      {
+        name:
+          "Compensation increase for securities commissioner to match the SAO's current market average salary for this exempt position.",
+        yOne: 16658,
+        yTwo: 16658,
+      },
+    ],
+  },
+  {
+    agency: 'State Office of Administrative Hearings',
+    article: 8,
+    requests: [
+      {
+        name: 'General Revenue Subsidy of Hourly IAC Rate',
+        yOne: 708708,
+        yTwo: 708708,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Board of Nursing',
+    article: 8,
+    requests: [
+      {
+        name: 'Temporary Staff Funding',
+        yOne: 150000,
+        yTwo: 150000,
+      },
+      {
+        name: 'Nursing Salary Adjustments',
+        yOne: 217603,
+        yTwo: 217603,
+      },
+      {
+        name: 'Merit Salary Increases for Employees',
+        yOne: 0,
+        yTwo: 250000,
+      },
+      {
+        name: 'Executive Director Sslary Increase',
+        yOne: 0,
+        yTwo: 0,
+        note:
+          'No request for funds but a request that the Board be allowed to set the salary of the Executive Director.',
+      },
+    ],
+  },
+  {
+    agency: 'Texas Medical Board',
+    article: 8,
+    requests: [
+      {
+        name: 'Information Technology Projects',
+        yOne: 173551,
+        yTwo: 96300,
+      },
+      {
+        name: 'Additional Staffing Needs',
+        yOne: 490367,
+        yTwo: 473031,
+        note: 'Creates 9 FTEs',
+      },
+      {
+        name: 'Enhance Employee Retention',
+        yOne: 888421,
+        yTwo: 888421,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State Board of Dental Examiners',
+    article: 8,
+    requests: [
+      {
+        name:
+          'Funding Restoration for Anesthesia Inspection Program Implementation',
+        yOne: 260363,
+        yTwo: 111471,
+      },
+      {
+        name: 'Merit Salary Increases',
+        yOne: 72120,
+        yTwo: 72120,
+      },
+      {
+        name: 'Half-time Dentist',
+        yOne: 66300,
+        yTwo: 66300,
+        note: 'Creates 0.5 FTEs',
+      },
+      {
+        name: 'Health Professions Council Increase',
+        yOne: 7064,
+        yTwo: 12488,
+      },
+    ],
+  },
 ];
