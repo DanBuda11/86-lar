@@ -1435,4 +1435,728 @@ export default [
       },
     ],
   },
+  {
+    agency: 'Court of Criminal Appeals',
+    article: 4,
+    requests: [
+      {
+        name: 'Salary Increases for Staff',
+        yOne: 723218,
+        yTwo: 723218,
+      },
+    ],
+  },
+  {
+    agency: 'Eighth Court of Appeals District, El Paso',
+    article: 4,
+  },
+  {
+    agency: 'Eleventh Court of Appeals District, Eastland',
+    article: 4,
+  },
+  {
+    agency: 'Fifth Court of Appeals District, Dallas',
+    article: 4,
+  },
+  {
+    agency: 'First Court of Appeals District, Houston',
+    article: 4,
+  },
+  {
+    agency: 'Fourteenth Court of Appeals District, Houston',
+    article: 4,
+  },
+  {
+    agency: 'Fourth Court of Appeals District, San Antonio',
+    article: 4,
+  },
+  {
+    agency: "Judiciary Section, Comptroller's Department",
+    article: 4,
+  },
+  {
+    agency: 'Ninth Court of Appeals District, Beaumont',
+    article: 4,
+  },
+  {
+    agency: 'Office of the State Prosecuting Attorney',
+    article: 4,
+    requests: [
+      {
+        name:
+          'Salary Increase for Assistant Attorneys and Administrative Assistant',
+        yOne: 24373,
+        yTwo: 24373,
+      },
+    ],
+  },
+  {
+    agency: 'Second Court of Appeals District, Fort Worth',
+    article: 4,
+  },
+  {
+    agency: 'Seventh Court of Appeals District, Amarillo',
+    article: 4,
+  },
+  {
+    agency: 'Sixth Court of Appeals District, Texarkana',
+    article: 4,
+  },
+  {
+    agency: 'State Commission on Judicial Conduct',
+    article: 4,
+    requests: [
+      {
+        name:
+          'Hard Costs Associated with Commission Meetings, Investigator and Attorney Travel, and Professional Evaluations',
+        yOne: 46000,
+        yTwo: 46000,
+      },
+      {
+        name:
+          'Requesting creation of 3 additional staff members (1 atty, 1 investigator, 1 administrative professional)',
+        yOne: 203688,
+        yTwo: 203688,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name:
+          'Prioritization of Existing Staff Retention in Alignment with Comparable Government Employment',
+        yOne: 130379,
+        yTwo: 130379,
+      },
+    ],
+  },
+  {
+    agency: 'State Law Library',
+    article: 4,
+    requests: [
+      {
+        name: 'Restore Cuts to Digital Resources',
+        yOne: 85000,
+        yTwo: 85000,
+      },
+      {
+        name: 'Restore Cuts to Legal Reference Materials',
+        yOne: 55000,
+        yTwo: 55000,
+      },
+      {
+        name: 'Increase Professional Staff Salaries to National Average',
+        yOne: 95000,
+        yTwo: 95000,
+      },
+      {
+        name: 'Restore Staff Cut in FY2010',
+        yOne: 62500,
+        yTwo: 62500,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Continue Digitization of Historical Statutes',
+        yOne: 15000,
+        yTwo: 15000,
+      },
+    ],
+  },
+  {
+    agency: 'Supreme Court of Texas',
+    article: 4,
+    requests: [
+      {
+        name: 'Staff Salaries',
+        yOne: 517779,
+        yTwo: 517779,
+      },
+      {
+        name: 'Basic Civil Legal Services - General Revenue Funding',
+        yOne: 9391125,
+        yTwo: 9391125,
+      },
+      {
+        name: 'Basic Civil Legal Services - Veteran GR Funding',
+        yOne: 1500000,
+        yTwo: 1500000,
+      },
+      {
+        name: 'Court Improvement Funding',
+        yOne: 500000,
+        yTwo: 500000,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Travel for SC Committees',
+        yOne: 10000,
+        yTwo: 10000,
+      },
+      {
+        name: 'Multi-District Litigation',
+        yOne: 7189,
+        yTwo: 7190,
+      },
+      {
+        name: 'Sexual Assault GR-Dedicated',
+        yOne: 400000,
+        yTwo: 0,
+      },
+      {
+        name: 'Judicial Civics and Education Center',
+        yOne: 2500000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Tenth Court of Appeals District, Waco',
+    article: 4,
+    requests: [
+      {
+        name: 'Return of Court Relocation Appropriation',
+        yOne: -50000,
+        yTwo: -50000,
+      },
+    ],
+  },
+  {
+    agency: 'Third Court of Appeals District, Austin',
+    article: 4,
+  },
+  {
+    agency: 'Thirteenth Court of Appeals District, Corpus Christi-Edinburg',
+    article: 4,
+  },
+  {
+    agency: 'Twelfth Court of Appeals District, Tyler',
+    article: 4,
+  },
+  {
+    agency: 'Commission on the Arts',
+    article: 1,
+    requests: [
+      {
+        name:
+          'Restore Cultural Districts Project (CDP) Grants to Base-Level Funding',
+        yOne: 2500000,
+        yTwo: 2500000,
+      },
+      {
+        name: 'Arts Healing Grants for Active-Service members and Veterans',
+        yOne: 250000,
+        yTwo: 250000,
+      },
+      {
+        name: 'CAPPS Financials Implementation',
+        yOne: 0,
+        yTwo: 50000,
+      },
+    ],
+  },
+  {
+    agency: 'Comptroller of Public Accounts',
+    article: 1,
+  },
+  {
+    agency: 'Department of Information Resources',
+    article: 1,
+    requests: [
+      {
+        name: 'Statewide Risk Based Multifactor Authentication',
+        yOne: 5106575,
+        yTwo: 2106575,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Microsoft O365 Advanced Threat Protection',
+        yOne: 1800000,
+        yTwo: 1800000,
+      },
+      {
+        name: 'Agency Developer Training on Secure Coding Methods',
+        yOne: 600000,
+        yTwo: 600000,
+      },
+      {
+        name: 'Benchmarking Agency Websites',
+        yOne: 150000,
+        yTwo: 150000,
+      },
+    ],
+  },
+  {
+    agency: 'Facilities Commission',
+    article: 1,
+    requests: [
+      {
+        name: 'CAPPS HR and Payroll Implementation',
+        yOne: 312758,
+        yTwo: 299174,
+        note: 'Creates 4 FTEs',
+      },
+      {
+        name: 'Deferred Maintenance',
+        yOne: 227392837,
+        yTwo: 100235,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Agency-wide Staffing and Salary Equity',
+        yOne: 5924752,
+        yTwo: 5037083,
+        note: 'Creates 44 FTEs',
+      },
+      {
+        name: 'New Flex Space Office Building',
+        yOne: 25000000,
+        yTwo: 25000000,
+      },
+      {
+        name: 'Facility Renewal and LBJ Renovations',
+        yOne: 23600000,
+        yTwo: 0,
+      },
+      {
+        name:
+          'Capitol Complex - New Construction of 2 buildings/parking on 15th St and TX Mall completion (phase 2)',
+        yOne: 313733097,
+        yTwo: 159030,
+        note:
+          'Creates 2 FTEs. Method of financing is proceeds from revenue bonds.',
+      },
+      {
+        name:
+          'North Austin Complex - New Construction of 2 buildings/parking (phase 2)',
+        yOne: 161134424,
+        yTwo: 159030,
+        note:
+          'Creates 2 FTEs. Method of financing is proceeds from revenue bonds.',
+      },
+      {
+        name: 'Facilities Master Planning',
+        yOne: 1000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Partial Replacement of Fleet',
+        yOne: 448133,
+        yTwo: 374440,
+      },
+      {
+        name: 'Secure Workplace Strategy',
+        yOne: 2900540,
+        yTwo: 883106,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'State Surplus Property FTE Increase',
+        yOne: 54032,
+        yTwo: 50356,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Federal Surplus Property FTE Increase',
+        yOne: 89794,
+        yTwo: 82442,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'Cybersecurity Services and Personnel',
+        yOne: 219318,
+        yTwo: 217018,
+        note: 'Creates 1 FTE',
+      },
+    ],
+  },
+  {
+    agency: 'Historical Commission',
+    article: 1,
+    requests: [
+      {
+        name: 'Increase FTEs for Sites and Headquarters',
+        yOne: 1455000,
+        yTwo: 1455000,
+        note: 'Creates 16 FTEs',
+      },
+      {
+        name: 'Deferred Maintenance Courthouse Grants',
+        yOne: 17500000,
+        yTwo: 17500000,
+      },
+      {
+        name: 'THC Vehicle Replacement',
+        yOne: 430353,
+        yTwo: 422958,
+      },
+      {
+        name: 'Texas Heritage Trails Support',
+        yOne: 250000,
+        yTwo: 250000,
+      },
+      {
+        name: 'Historic Sites Deferred Maintenance',
+        yOne: 1258750,
+        yTwo: 1627500,
+      },
+      {
+        name: 'Levi Jordan Plantation and Nimitz Museum',
+        yOne: 2074800,
+        yTwo: 2074800,
+      },
+      {
+        name: 'CAPPS',
+        yOne: 128040,
+        yTwo: 98210,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'THGC Genocide Education Program',
+        yOne: 80000,
+        yTwo: 80000,
+        note: 'Creates 1 FTE',
+      },
+    ],
+  },
+  {
+    agency: 'Library & Archives Commission',
+    article: 1,
+    requests: [
+      {
+        name:
+          "Expanding TSLAC's State Records Facility for Current and Historical Government Records",
+        yOne: 26400000,
+        yTwo: 0,
+      },
+      {
+        name:
+          'Renovation of Promontory Point Facility to Meet Immediate Need for Additional State Records Storage Space',
+        yOne: 4400000,
+        yTwo: 0,
+      },
+      {
+        name:
+          'Implementing Gartner recommendations to ensure security of agency IT and physical assets',
+        yOne: 731141,
+        yTwo: 478803,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name:
+          'TexShare and TexQuest ensuring cost-effective access to online information resources',
+        yOne: 2275489,
+        yTwo: 2270489,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Targeted salary adjustments',
+        yOne: 200000,
+        yTwo: 200000,
+      },
+      {
+        name:
+          'InfoPower Outreach Project to bring TSLAC information resources to Texans and Texas communities',
+        yOne: 292262,
+        yTwo: 262262,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name:
+          'TSLAC General Counsel to ensure timely, accurate and cost-effective response to PIAs and contract management',
+        yOne: 247092,
+        yTwo: 237092,
+        note: 'Creates 2 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'Office of the Attorney General',
+    article: 1,
+    requests: [
+      {
+        name: 'Human Trafficking',
+        yOne: 1508826,
+        yTwo: 1286698,
+        note: 'Creates 13 FTEs',
+      },
+      {
+        name: 'Elections Fund',
+        yOne: 1101066,
+        yTwo: 865598,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: "GR-D Request - Crime Victim's Compensation Fund",
+        yOne: 12325000,
+        yTwo: 12325000,
+      },
+      {
+        name: 'CAPPS Transition Phase II',
+        yOne: 5626356,
+        yTwo: 5907636,
+      },
+    ],
+  },
+  {
+    agency: 'Office of the Governor',
+    article: 1,
+    requests: [
+      {
+        name: 'Provide Disaster Funding',
+        yOne: 100000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Defense Economic Adjustment Assistance Grant Programs',
+        yOne: 20000000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Pension Review Board',
+    article: 1,
+    requests: [
+      {
+        name: 'Funding for Critical Staff Positions',
+        yOne: 60000,
+        yTwo: 60000,
+      },
+      {
+        name:
+          'Centralized Accounting and Payroll/Personnel System Implementation',
+        yOne: 6000,
+        yTwo: 6000,
+      },
+      {
+        name: 'Increase Executive Director Salary',
+        yOne: 12250,
+        yTwo: 12250,
+      },
+    ],
+  },
+  {
+    agency: 'Preservation Board',
+    article: 1,
+    requests: [
+      {
+        name: 'Texas State Cemetery Master Plan Phase I',
+        yOne: 5600000,
+        yTwo: 0,
+      },
+      {
+        name: 'The Texas Story Project',
+        yOne: 2610500,
+        yTwo: 1569500,
+        note: 'Creates 6 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'Public Finance Authority',
+    article: 1,
+  },
+  {
+    agency: 'Secretary of State',
+    article: 1,
+    requests: [
+      {
+        name: 'Payment of Benefits by Method of Finance',
+        yOne: 950000,
+        yTwo: 1900000,
+      },
+      {
+        name: 'Information Technology - Refresh of Equipment and Software',
+        yOne: 200000,
+        yTwo: 100000,
+      },
+      {
+        name:
+          'HAVA - Hardware, Software, and Maintenance Costs for TEAM System',
+        yOne: 400000,
+        yTwo: 1500000,
+      },
+      {
+        name: 'CAPPS Accounting Implementation Costs',
+        yOne: 200000,
+        yTwo: 0,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'County Election Security Training',
+        yOne: 700000,
+        yTwo: 700000,
+      },
+      {
+        name: 'HAVA Security Grant Match',
+        yOne: 1162630,
+        yTwo: 0,
+      },
+      {
+        name: 'Increased Primary Election Costs',
+        yOne: 3000000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'State Office of Risk Management',
+    article: 1,
+    requests: [
+      {
+        name: 'Increase in Bond Authority to compensate the Executive Director',
+        yOne: 0,
+        yTwo: 0,
+        note: 'Funding source is interagency contracts.',
+      },
+    ],
+  },
+  {
+    agency: 'Texas Emergency Services Retirement System',
+    article: 1,
+    requests: [
+      {
+        name: 'State Contributions to Pension System',
+        yOne: 53760,
+        yTwo: 53760,
+      },
+      {
+        name: 'Pension System Cybersecurity',
+        yOne: 80000,
+        yTwo: 90000,
+      },
+      {
+        name: 'Investment and Financial Accounting Outsourcing',
+        yOne: 36500,
+        yTwo: 36500,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Ethics Commission',
+    article: 1,
+    requests: [
+      {
+        name: 'Electronic Filing and 1295 Maintenance Costs',
+        yOne: 100000,
+        yTwo: 100000,
+      },
+      {
+        name: 'Electronic Filing and 1295 Enhancement hours',
+        yOne: 137500,
+        yTwo: 137500,
+      },
+      {
+        name: 'Network Switches',
+        yOne: 75000,
+        yTwo: 0,
+      },
+      {
+        name: 'Programmer',
+        yOne: 130000,
+        yTwo: 130000,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'Case Management Software',
+        yOne: 55000,
+        yTwo: 0,
+      },
+      {
+        name: 'Case Management Maintenance and Cloud Hosting',
+        yOne: 22000,
+        yTwo: 22000,
+      },
+      {
+        name: 'Symposium Training',
+        yOne: 15000,
+        yTwo: 15000,
+      },
+      {
+        name: 'Attorney',
+        yOne: 65000,
+        yTwo: 65000,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Staff Retention',
+        yOne: 162000,
+        yTwo: 162000,
+      },
+      {
+        name: 'Lump Sum Payments',
+        yOne: 80000,
+        yTwo: 80000,
+      },
+      {
+        name: 'Exempt Positions Salary Increase',
+        yOne: 14000,
+        yTwo: 14000,
+      },
+      {
+        name:
+          'Administrative Assistant for Implementation of Centralized Accounting and Payroll/Personnel System by State Comptroller',
+        yOne: 50000,
+        yTwo: 0,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: 'Staff Services Officer',
+        yOne: 0,
+        yTwo: 0,
+        note: 'Requesting transfer of 1 FTE from one division to another.',
+      },
+      {
+        name: 'Replace Cipher Locks',
+        yOne: 50000,
+        yTwo: 0,
+      },
+      {
+        name: 'Appropriated Receipts',
+        yOne: 8190,
+        yTwo: 8190,
+      },
+    ],
+  },
+  {
+    agency: 'Trusteed Programs Within the Office of the Governor',
+    article: 1,
+    requests: [
+      {
+        name: 'Provide Disaster Funding',
+        yOne: 100000000,
+        yTwo: 0,
+      },
+      {
+        name: 'Defense Economic Adjustment Assistance Grant Programs',
+        yOne: 20000000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Veterans Commission',
+    article: 1,
+    requests: [
+      {
+        name: 'Claims',
+        yOne: 1219815,
+        yTwo: 1116815,
+      },
+      {
+        name: 'Woman Veteran Program',
+        yOne: 262044,
+        yTwo: 242444,
+        note: 'Creates 4 FTEs',
+      },
+      {
+        name: 'Veterans Entrepreneur Program',
+        yOne: 437470,
+        yTwo: 382470,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'Cybersecurity Capital Project',
+        yOne: 304809,
+        yTwo: 177255,
+      },
+    ],
+  },
 ];
