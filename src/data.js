@@ -2624,4 +2624,75 @@ export default [
       },
     ],
   },
+  {
+    agency: 'Alamo Community College',
+    article: 3
+  },
+  {
+    agency: 'Alvin Community College',
+    article: 3
+  },
+  {
+    agency: 'Amarillo College',
+    artiel: 3
+  },
+  {
+    agency: 'Angelina Collage',
+    article: 3,
+    requests: [
+      {
+        name: 'Texas Community Collge Consortium (TC3)',
+        yOne: 1250000,
+        yTwo: 1250000
+      }
+    ]
+  },
+  {
+    agency: 'Angelo State University',
+    article: 3,
+    requests: [
+      {
+        name: 'Academic and Student Services',
+        yOne: 2500000,
+        yTwo: 2500000,
+        note: 'Creates 30.8 FTEs'
+      },
+      {
+        name: 'Tuition Revenue Bond Debt Service',
+        yOne: 1743691,
+        yTwo: 1743691
+      }
+    ]
+  },
+  {
+    agency: 'Available University Fund',
+    article: 3,
+  },
+  {
+    agency: 'Blinn Junior College',
+    article: 3,
+    requests: [
+      {
+        name: 'Star of the republic Museum',
+        yOne: 39600,
+        yTwo: 39600
+      }
+    ]
+  },
+  {
+    agency: 'Brazosport College',
+    article: 3
+  },
+  {
+    agency: 'Central Texas College',
+    article: 3
+  },
+  {
+    agency: 'Cisco Junior College',
+    article: 3
+  },
+  {
+    agency: 'Clarendon College',
+    article: 3
+  }
 ];
