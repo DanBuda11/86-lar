@@ -2626,15 +2626,15 @@ export default [
   },
   {
     agency: 'Alamo Community College',
-    article: 3
+    article: 3,
   },
   {
     agency: 'Alvin Community College',
-    article: 3
+    article: 3,
   },
   {
     agency: 'Amarillo College',
-    artiel: 3
+    artiel: 3,
   },
   {
     agency: 'Angelina Collage',
@@ -2643,9 +2643,9 @@ export default [
       {
         name: 'Texas Community Collge Consortium (TC3)',
         yOne: 1250000,
-        yTwo: 1250000
-      }
-    ]
+        yTwo: 1250000,
+      },
+    ],
   },
   {
     agency: 'Angelo State University',
@@ -2655,14 +2655,14 @@ export default [
         name: 'Academic and Student Services',
         yOne: 2500000,
         yTwo: 2500000,
-        note: 'Creates 30.8 FTEs'
+        note: 'Creates 30.8 FTEs',
       },
       {
         name: 'Tuition Revenue Bond Debt Service',
         yOne: 1743691,
-        yTwo: 1743691
-      }
-    ]
+        yTwo: 1743691,
+      },
+    ],
   },
   {
     agency: 'Available University Fund',
@@ -2675,24 +2675,546 @@ export default [
       {
         name: 'Star of the republic Museum',
         yOne: 39600,
-        yTwo: 39600
-      }
-    ]
+        yTwo: 39600,
+      },
+    ],
   },
   {
     agency: 'Brazosport College',
-    article: 3
+    article: 3,
   },
   {
     agency: 'Central Texas College',
-    article: 3
+    article: 3,
   },
   {
     agency: 'Cisco Junior College',
-    article: 3
+    article: 3,
   },
   {
     agency: 'Clarendon College',
-    article: 3
-  }
+    article: 3,
+  },
+  {
+    agency: 'Coastal Bend College',
+    article: 3,
+  },
+  {
+    agency: 'College of the Mainland',
+    article: 3,
+  },
+  {
+    agency: 'Collin County Community College',
+    article: 3,
+  },
+  {
+    agency: 'Dallas County Community College',
+    article: 3,
+  },
+  {
+    agency: 'Del Mar College',
+    article: 3,
+  },
+  {
+    agency: 'El Paso Community College',
+    article: 3,
+  },
+  {
+    agency: 'Frank Phillips College',
+    article: 3,
+  },
+  {
+    agency: 'Galveston College',
+    article: 3,
+  },
+  {
+    agency: 'Hill College',
+    article: 3,
+  },
+  {
+    agency: 'Houston Community College',
+    article: 3,
+    requests: [
+      {
+        name:
+          'The Flood Water Rescue Training Facility at Housgon Community College',
+        yOne: 12000000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Howard College',
+    article: 3,
+  },
+  {
+    agency: 'Kilgore College',
+    article: 3,
+  },
+  {
+    agency: 'Laredo Community College',
+    article: 3,
+  },
+  {
+    agency: 'Lee College',
+    article: 3,
+  },
+  {
+    agency: 'Lone Star College System',
+    article: 3,
+    requests: [
+      {
+        name: 'Kingwood College Campus - Hurricane Harvey Damages',
+        yOne: 15000000,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'McLennan Community College',
+    article: 3,
+  },
+  {
+    agency: 'Midland College',
+    article: 3,
+  },
+  {
+    agency: 'Navarro College',
+    article: 3,
+  },
+  {
+    agency: 'North Central Texas College',
+    article: 3,
+  },
+  {
+    agency: 'Northeast Texas Community College',
+    article: 3,
+  },
+  {
+    agency: 'Odessa College',
+    article: 3,
+  },
+  {
+    agency: 'Panola Junior College',
+    article: 3,
+  },
+  {
+    agency: 'Ranger Junior College',
+    article: 3,
+  },
+  {
+    agency: 'San Jacinto College',
+    article: 3,
+  },
+  {
+    agency: 'South Plains College',
+    article: 3,
+  },
+  {
+    agency: 'South Texas College',
+    article: 3,
+    requests: [
+      {
+        name: 'Edcouch or Elsa Instructional Facility',
+        yOne: 31287182,
+        yTwo: 0,
+      },
+    ],
+  },
+  {
+    agency: 'Southwest Texas Junior College',
+    article: 3,
+  },
+  {
+    agency: 'Tarrant County College',
+    article: 3,
+  },
+  {
+    agency: 'Temple Junior College',
+    article: 3,
+  },
+  {
+    agency: 'Texarkana College',
+    article: 3,
+  },
+  {
+    agency: 'Texas Southmost College',
+    article: 3,
+    requests: [
+      {
+        name: 'Workforce Center for Border Security',
+        yOne: 500000,
+        yTwo: 500000,
+      },
+    ],
+  },
+  {
+    agency: 'Trinity Valley Community College',
+    article: 3,
+  },
+  {
+    agency: 'Tyler Junior College',
+    article: 3,
+  },
+  {
+    agency: 'Vernon College',
+    article: 3,
+  },
+  {
+    agency: 'Victoria College',
+    article: 3,
+  },
+  {
+    agency: 'Weatherford College',
+    article: 3,
+  },
+  {
+    agency: 'Western Texas College',
+    article: 3,
+  },
+  {
+    agency: 'Wharton County Junior College',
+    article: 3,
+  },
+  {
+    agency: 'Angelo State University',
+    article: 3,
+    requests: [
+      {
+        name: 'Academic and Student Success',
+        yOne: 2500000,
+        yTwo: 2500000,
+        note: 'Creates 30.8 FTEs',
+      },
+      {
+        name: 'Tuition and Revenue Bond Debt Service',
+        yOne: 1743691,
+        yTwo: 1743691,
+      },
+    ],
+  },
+  {
+    agency: 'Lamar University',
+    article: 3,
+    requests: [
+      {
+        name: 'Hurricane Harvey Recovery Assistance',
+        yOne: 4232446,
+        yTwo: 4232446,
+      },
+      {
+        name: 'The Center for Midstream Management and Science',
+        yOne: 750000,
+        yTwo: 3000000,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'Lamar University Digital Learning Center',
+        yOne: 3825000,
+        yTwo: 3825000,
+      },
+    ],
+  },
+  {
+    agency: 'Midwestern State University',
+    article: 3,
+    requests: [
+      {
+        name: 'Academic Program Expansion',
+        yOne: 1000000,
+        yTwo: 1000000,
+      },
+      {
+        name: 'Infrastructure Upgrades',
+        yOne: 865248,
+        yTwo: 865248,
+      },
+    ],
+  },
+  {
+    agency: 'Prairie View A&M University',
+    article: 3,
+    requests: [
+      {
+        name: 'Agriculture Match',
+        yOne: 7485559,
+        yTwo: 7485559,
+        note: 'Creates 20 FTEs',
+      },
+      {
+        name: 'Juvenile Crime Prevention Center',
+        yOne: 4441890,
+        yTwo: 4441889,
+      },
+      {
+        name: 'Institutional Enhancement (Academic and Student Support)',
+        yOne: 1182894,
+        yTwo: 1182894,
+        note: 'Creates 10.4 FTEs',
+      },
+      {
+        name: 'Engineering Classroom and Research Building',
+        yOne: 5231074,
+        yTwo: 5231074,
+      },
+      {
+        name: 'Multipurpose Educational and Event Facility',
+        yOne: 4184859,
+        yTwo: 4184859,
+      },
+    ],
+  },
+  {
+    agency: 'Sam Houston State University',
+    article: 3,
+    requests: [
+      {
+        name: 'Student Success Initiatives - Advancing 60x30TX',
+        yOne: 4000000,
+        yTwo: 4000000,
+        note: 'Creates 40 FTEs',
+      },
+      {
+        name: 'Allied Health Building',
+        yOne: 5950000,
+        yTwo: 5950000,
+      },
+    ],
+  },
+  {
+    agency: 'Stephen F. Austin State University',
+    article: 3,
+    requests: [
+      {
+        name: 'Natural Resources Science and Innovations Laboratory',
+        yOne: 4184859,
+        yTwo: 4184859,
+      },
+      {
+        name:
+          'Science, Technology, Engineering and Mathematics (STEM) Education / Early Childhood Program',
+        yOne: 1000000,
+        yTwo: 1000000,
+        note: 'Creates 5 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'Sul Ross State University - Rio Grande College',
+    article: 3,
+    requests: [
+      {
+        name:
+          'Recruiting Nurses into the B.S. Degree in Nursing Completion Program',
+        yOne: 65000,
+        yTwo: 65000,
+      },
+      {
+        name:
+          'Creating other educational opportunities in Eagle Pass, Texas (Pre-med, Pre-engineering and Pre-law) at Sul Ross State University - Rio Grande College - TRB',
+        yOne: 1700000,
+        yTwo: 1700000,
+      },
+    ],
+  },
+  {
+    agency: 'Sul Ross State University',
+    article: 3,
+    requests: [
+      {
+        name:
+          'Bachelor of Science Degree in Nursing at Sul Ross State University - Alpine',
+        yOne: 700000,
+        yTwo: 420000,
+        note: 'Creates 4 FTEs',
+      },
+      {
+        name: 'Fine Arts Facility Expansion',
+        yOne: 2171750,
+        yTwo: 2171750,
+      },
+    ],
+  },
+  {
+    agency: 'Tarleton State University',
+    article: 3,
+  },
+  {
+    agency: 'Texas Southern University',
+    article: 3,
+    requests: [
+      {
+        name: 'Initiatives for Success and Completion',
+        yOne: 2000000,
+        yTwo: 2000000,
+        note: 'Creates 16 FTEs',
+      },
+      {
+        name: 'Pharmacy Equity Funding',
+        yOne: 2000000,
+        yTwo: 2000000,
+        note: 'Creates 22.2 FTEs in 2021',
+      },
+    ],
+  },
+  {
+    agency: 'Texas State University',
+    article: 3,
+    requests: [
+      {
+        name: 'School Safety Center',
+        yOne: 3617224,
+        yTwo: 3617224,
+        note: 'Creates 34.6 FTEs',
+      },
+      {
+        name: 'Center for the Translation of Health Research',
+        yOne: 2150000,
+        yTwo: 2150000,
+        note: 'Creates 8 FTEs',
+      },
+      {
+        name: 'Advanced Law Enforcement Rapid Response Training (ALERRT)',
+        yOne: 2000000,
+        yTwo: 2000000,
+        note: 'Creates 10.4 FTEs',
+      },
+      {
+        name: 'Debt Service for Tuition Revenue Bonds',
+        yOne: 17000000,
+        yTwo: 17000000,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Tech University',
+    article: 3,
+    requests: [
+      {
+        name: 'Veterinary Medicine',
+        yOne: 5414866,
+        yTwo: 7764866,
+        note: 'Creates 33.2 FTEs in 2020 and 52.5 in 2021',
+      },
+      {
+        name: 'Academic and Student Success',
+        yOne: 4809408,
+        yTwo: 4809408,
+        note: 'Creates 50 FTEs',
+      },
+      {
+        name: 'Debt Service for Requested Tuition Revenue Bonds',
+        yOne: 10294752,
+        yTwo: 10294752,
+      },
+    ],
+  },
+  {
+    agency: "Texas Woman's University",
+    article: 3,
+    requests: [
+      {
+        name: 'Center for Longevity and Rural Health',
+        yOne: 2425000,
+        yTwo: 2425000,
+      },
+      {
+        name: 'Tuition Revenue Bond Retirement',
+        yOne: 9154378,
+        yTwo: 9154378,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas at Austin',
+    article: 3,
+    requests: [
+      {
+        name: 'Restoration of J.T. Patterson Labs Building',
+        yOne: 8718456,
+        yTwo: 8718456,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas at Dallas',
+    article: 3,
+    requests: [
+      {
+        name: 'Engineering for Life',
+        yOne: 4000000,
+        yTwo: 4000000,
+        note: 'Creates 40 FTEs',
+      },
+      {
+        name: 'Intensive Summer Academic Bridge Program',
+        yOne: 225648,
+        yTwo: 225648,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'Middle School Brain Years',
+        yOne: 509698,
+        yTwo: 509698,
+        note: 'Creates 9.1 FTEs',
+      },
+      {
+        name:
+          'UTD/UTSW Translational Biomedical Engineering and Science Building',
+        yOne: 5230000,
+        yTwo: 5230000,
+      },
+      {
+        name: 'Student Success Center',
+        yOne: 7410000,
+        yTwo: 7410000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas at El Paso',
+    article: 3,
+    requests: [
+      {
+        name: 'Pharmacy Extension Funding',
+        yOne: 1500000,
+        yTwo: 1500000,
+        note: 'Creates 5 FTEs',
+      },
+      {
+        name: 'UTEP Tech. Research & Innovation Acceleration (TRIAc) Institute',
+        yOne: 5000000,
+        yTwo: 5000000,
+        note: 'Creates 6 FTEs',
+      },
+      {
+        name: 'Student Success Initiative',
+        yOne: 5000000,
+        yTwo: 5000000,
+        note: 'Creates 40 FTEs',
+      },
+      {
+        name:
+          'Tuition Revenue Bond Debt Service - Advanced Teaching and Learning Complex',
+        yOne: 9851000,
+        yTwo: 9851000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas at Tyler',
+    article: 3,
+    requests: [
+      {
+        name: 'College of Nursing & Health Science - TRB Debt Service',
+        yOne: 4360000,
+        yTwo: 4360000,
+      },
+      {
+        name: 'Partnership for an Affordable Engineering Degree',
+        yOne: 2500000,
+        yTwo: 2500000,
+      },
+    ],
+  },
 ];
