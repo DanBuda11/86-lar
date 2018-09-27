@@ -3333,4 +3333,643 @@ export default [
       },
     ],
   },
+  {
+    agency: 'University of North Texas',
+    article: 3,
+    requests: [
+      {
+        name: 'Center for Agile and Adaptive Additive Manufacturing (CAAAM)',
+        yOne: 10000000,
+        yTwo: 10000000,
+        note: 'Creates 45 FTEs in 2020 and 60 FTEs in 2021',
+      },
+      {
+        name: 'North Texas Autism Collaboration',
+        yOne: 3000000,
+        yTwo: 3000000,
+        note: 'Creates 19 FTEs',
+      },
+      {
+        name: 'Science and Technology Research Building - TRB',
+        yOne: 10852494,
+        yTwo: 10848600,
+      },
+    ],
+  },
+  {
+    agency: 'University of North Texas at Dallas',
+    article: 3,
+    requests: [
+      {
+        name: 'Urban Institute Program',
+        yOne: 850000,
+        yTwo: 850000,
+        note: 'Creates 4.5 FTEs',
+      },
+      {
+        name: "Emerging Teacher's Institute",
+        yOne: 1250000,
+        yTwo: 1250000,
+        note: 'Creates 5 FTEs',
+      },
+      {
+        name: 'Mental Health Counseling',
+        yOne: 750000,
+        yTwo: 750000,
+        note: 'Creates 7 FTEs',
+      },
+      {
+        name: 'Pathway to Success Program',
+        yOne: 1250000,
+        yTwo: 1250000,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'Academic Bridge Program',
+        yOne: 500000,
+        yTwo: 500000,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'STEM Building',
+        yOne: 7922147,
+        yTwo: 7924900,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas at Arlington',
+    article: 3,
+    requests: [
+      {
+        name: 'Institute for P-16 Progress',
+        yOne: 2000000,
+        yTwo: 2000000,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: 'Center for Entrepreneurship & Economic Innovation',
+        yOne: 1500000,
+        yTwo: 1500000,
+        note: 'Creates 20 FTEs',
+      },
+      {
+        name: 'Restoration of 2017 Budget Reductions',
+        yOne: 2717085,
+        yTwo: 2717085,
+        note: 'Creates 20 FTEs',
+      },
+      {
+        name: 'Social Work & College of Nursing Aademic Building',
+        yOne: 5300000,
+        yTwo: 5300000,
+      },
+    ],
+  },
+  {
+    agency: 'THe University of Texas of the Permian Basin',
+    article: 3,
+    requests: [
+      {
+        name:
+          'Tuition Revenue Bond Debt Service - Mesa Building Remodel/Renovation',
+        yOne: 3488000,
+        yTwo: 3488000,
+      },
+      {
+        name: 'Instruction Enhancement',
+        yOne: 2000000,
+        yTwo: 2000000,
+        note: 'Creates 8 FTEs',
+      },
+      {
+        name: 'Institutional Enhancement',
+        yOne: 2000000,
+        yTwo: 2000000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas Rio Grande Valley',
+    article: 3,
+    requests: [
+      {
+        name: 'Debt Service - Health Affairs Building',
+        yOne: 6105000,
+        yTwo: 6105000,
+      },
+    ],
+  },
+  {
+    agency: 'THe University of Texas at San Antonio',
+    article: 3,
+    requests: [
+      {
+        name: 'College of Business Building (Downtown Campus)',
+        yOne: 11005000,
+        yTwo: 11005000,
+      },
+      {
+        name: 'Leadership in Cybersecurity',
+        yOne: 2500000,
+        yTwo: 2500000,
+        note: 'Creates 21.5 FTEs',
+      },
+      {
+        name: 'College Completion UTSA',
+        yOne: 495000,
+        yTwo: 495000,
+        note: 'Creates 2 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'West Texas A&M University',
+    article: 3,
+    requests: [
+      {
+        name: 'Advancing Food Animal Production in the Panhandle',
+        yOne: 4071000,
+        yTwo: 4071000,
+        note: 'Creates 34 FTEs',
+      },
+      {
+        name:
+          'Proposed Capital Project: Life & Fire Safety / Fire Marshal Issues',
+        yOne: 2484760,
+        yTwo: 2484760,
+      },
+      {
+        name: 'Proposed Capital Project: Education Building Renovation',
+        yOne: 1743692,
+        yTwo: 1743692,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Tech University Health Sciences Center',
+    article: 3,
+    requests: [
+      {
+        name: 'Texas Tech Mental Health Institute',
+        yOne: 1250000,
+        yTwo: 1250000,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: 'Tuition Revenue Bond Debt Service',
+        yOne: 3020945,
+        yTwo: 3020945,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Tech University Health Sciences Center at El Paso',
+    article: 3,
+    requests: [
+      {
+        name: 'School of Dental Medicine',
+        yOne: 10000000,
+        yTwo: 10000000,
+        note: 'Creates 13 FTEs',
+      },
+      {
+        name: 'Tuition Revenue Bond Debt Service',
+        yOne: 8051407,
+        yTwo: 8051407,
+      },
+    ],
+  },
+  {
+    agency: 'University of North Texas Health Science Center at Fort Worth',
+    article: 3,
+    requests: [
+      {
+        name: 'TRB Debt Service: Academic Building',
+        yOne: 9947320,
+        yTwo: 9949000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas M.D. Anderson Cancer Center',
+    article: 3,
+    requests: [
+      {
+        name: 'Joint MD Anderson and UT Health Research Bldg.',
+        yOne: 8720000,
+        yTwo: 8720000,
+      },
+      {
+        name: 'Restoration of Breast Cancer Research Program',
+        yOne: 480000,
+        yTwo: 480000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas Rio Grande Valley School of Medicine',
+    article: 3,
+    requests: [
+      {
+        name: 'School of Medicine',
+        yOne: 5000000,
+        yTwo: 5000000,
+        note: 'Creates 22 FTEs',
+      },
+      {
+        name: 'Cervial Dysplasia and Cancer Immunology Center',
+        yOne: 2200000,
+        yTwo: 2200000,
+        note: 'Creates 17 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas Southwestern Medical Center',
+    article: 3,
+    requests: [
+      {
+        name: 'Center for Gene Therapy & Curative Medicine',
+        yOne: 9000000,
+        yTwo: 9000000,
+        note: 'Creates 50 FTEs',
+      },
+      {
+        name: 'Center for Advanced Radiation Therapy',
+        yOne: 4500000,
+        yTwo: 4500000,
+        note: 'Creates 50 FTEs',
+      },
+      {
+        name:
+          'UTD/UTSW Translational Biomedical Engineering and Science Building',
+        yOne: 5230000,
+        yTwo: 5230000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas Health Science Center at Houston',
+    article: 3,
+    requests: [
+      {
+        name: "Women's Health Education and Research Center",
+        yOne: 9000000,
+        yTwo: 9000000,
+        note: 'Creates 30 FTEs',
+      },
+      {
+        name: 'Joint UTHealth and MD Anderson Research Building',
+        yOne: 8720000,
+        yTwo: 8720000,
+      },
+      {
+        name: 'Restoration of Non-Formula Funding',
+        yOne: 1761697,
+        yTwo: 1761697,
+        note: 'Creates 7.1 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas Health Science Center at San Antonio',
+    article: 3,
+    requests: [
+      {
+        name:
+          "Barhop Institute for Longevity and Aging Studies - Alzheimer's Research",
+        yOne: 6350000,
+        yTwo: 6350000,
+        note: 'Creates 20 FTEs',
+      },
+      {
+        name: 'Restoration of Funding - Regional Campus Laredo (RCL)',
+        yOne: 756814,
+        yTwo: 756814,
+        note: 'Creates 6 FTEs',
+      },
+      {
+        name:
+          'Restoration of Funding - San Antonio Life Sciences Institute (SALSI)',
+        yOne: 176000,
+        yTwo: 176000,
+      },
+      {
+        name:
+          'Restoration of Funding - Outreach Support for South Texas Programs',
+        yOne: 67270,
+        yTwo: 67270,
+        note: 'Creates 1 FTE',
+      },
+      {
+        name: "Institute for Alzheimer's & Neurodegenerative Diseases Building",
+        yOne: 7150000,
+        yTwo: 7150000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas Health Science Center at Tyler',
+    article: 3,
+    requests: [
+      {
+        name: 'Workforce Expansion for Youth and Families with Mental Illness',
+        yOne: 2730000,
+        yTwo: 2730000,
+        note: 'Creates 19 FTEs',
+      },
+      {
+        name:
+          'To support the debt service for the request from the University of Texas Health Science Center at Tyler (UTHSCT)',
+        yOne: 1615000,
+        yTwo: 1615000,
+      },
+    ],
+  },
+  {
+    agency: 'The University of Texas Medical Branch at Galveston',
+    article: 3,
+    requests: [
+      {
+        name: 'Restoration of Reductions from the 85th Legislative Session',
+        yOne: 5542362,
+        yTwo: 5542362,
+        note: 'Creates 44.9 FTEs in 2020 and 43.6 FTEs in 2021',
+      },
+      {
+        name: 'Tuition Revenue Bond - Debt Service - New Facilities',
+        yOne: 13690000,
+        yTwo: 13690000,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State University System',
+    article: 3,
+    requests: [
+      {
+        name: 'Concurrent Enrollment Grants',
+        yOne: 2150000,
+        yTwo: 2150000,
+      },
+    ],
+  },
+  {
+    agency: 'Texas Tech University System Administration',
+    article: 3,
+    requests: [
+      {
+        name: 'Additional Funding for System Operations',
+        yOne: 632000,
+        yTwo: 632000,
+        note: 'Creates 13.2 FTEs',
+      },
+    ],
+  },
+  {
+    agency: 'University of Houston System Administration',
+    article: 3,
+    requests: [
+      {
+        name: 'Restore Non-Formula Support',
+        yOne: 294430,
+        yTwo: 294430,
+      },
+      {
+        name:
+          'Texas Aerospace Scholars (TAS) / Technology Outreach Program (TOP)',
+        yOne: 326745,
+        yTwo: 326745,
+      },
+      {
+        name: 'UHS Katy Campus Expansion',
+        yOne: 6538842,
+        yTwo: 6538842,
+      },
+    ],
+  },
+  {
+    agency: 'University of North Texas System Administration',
+    article: 3,
+  },
+  {
+    agency: 'The University of Texas System Administration',
+    article: 3,
+  },
+  {
+    agency: 'Available University Fund',
+    article: 3,
+  },
+  {
+    agency: 'Texas State Technical College - Ft. Bend',
+    article: 3,
+    requests: [
+      {
+        name: 'Startup Funding',
+        yOne: 1219291,
+        yTwo: 1219292,
+        note: 'Creates 12 FTEs',
+      },
+      {
+        name: 'TRB - Fort Bend New Campus Site Phase 3',
+        yOne: 2644918,
+        yTwo: 2644918,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State Technical College - Harlingen',
+    article: 3,
+    requests: [
+      {
+        name: 'Dual Enrollment',
+        yOne: 550000,
+        yTwo: 750000,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: 'TRB - Harlingen Industrial Technology Center',
+        yOne: 1743691,
+        yTwo: 1743691,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State Technical College - Marshall',
+    article: 3,
+    requests: [
+      {
+        name: 'Dual Enrollment',
+        yOne: 100000,
+        yTwo: 100000,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'TRB - Single Campus Consolidation',
+        yOne: 747346,
+        yTwo: 747346,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State Technical College - North Texas',
+    article: 3,
+    requests: [
+      {
+        name: 'Startup Funding Restoration to Prior Levels',
+        yOne: 906583,
+        yTwo: 906583,
+        note: 'Creates 9 FTEs',
+      },
+      {
+        name: 'TRB - North Texas New Campus Site Phase 2',
+        yOne: 953625,
+        yTwo: 953625,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State Technical College - Waco',
+    article: 3,
+    requests: [
+      {
+        name: 'Dual Enrollment',
+        yOne: 250000,
+        yTwo: 250000,
+        note: 'Creates 4 FTEs',
+      },
+      {
+        name:
+          'Abatement and Demolition of Environmentally Hazardous Military Structures',
+        yOne: 14822320,
+        yTwo: 14822320,
+      },
+      {
+        name: 'TRB - Computer Technology Center',
+        yOne: 1743691,
+        yTwo: 1743691,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State Technical College - West Texas',
+    article: 3,
+    requests: [
+      {
+        name: 'Dual Enrollment',
+        yOne: 100000,
+        yTwo: 100000,
+        note: 'Creates 2 FTEs',
+      },
+      {
+        name: 'TRB - Abilene New Campus Site Phase 2',
+        yOne: 2456599,
+        yTwo: 2456599,
+      },
+    ],
+  },
+  {
+    agency: 'Texas State Technical College System Administration',
+    article: 3,
+    requests: [
+      {
+        name: 'Williamson County Start Up Funding Restoration to Prior Levels',
+        yOne: 1333486,
+        yTwo: 1333487,
+        note: 'Creates 10 FTEs',
+      },
+      {
+        name: 'Forecasting & Curriculum Development',
+        yOne: 750000,
+        yTwo: 750000,
+        note: 'Creates 6 FTEs',
+      },
+      {
+        name: 'Williamson County Phase II TRB for Industrial Technology Center',
+        yOne: 1438545,
+        yTwo: 1438545,
+      },
+    ],
+  },
+  {
+    agency: 'Lamar Institute of Technology',
+    article: 3,
+    requests: [
+      {
+        name: 'Concurrent Enrollment Grant',
+        yOne: 750000,
+        yTwo: 750000,
+        note: 'Creates 5 FTEs in 2020 and 4 FTEs in 2021',
+      },
+      {
+        name: 'Professional Truck Driving Academy',
+        yOne: 550000,
+        yTwo: 550000,
+      },
+      {
+        name: 'Hurricane Harvey Recovery Assistance',
+        yOne: 417352,
+        yTwo: 417352,
+      },
+      {
+        name: 'Workforce Training Center',
+        yOne: 1700000,
+        yTwo: 1700000,
+      },
+    ],
+  },
+  {
+    agency: 'Lamar State College - Orange',
+    article: 3,
+    requests: [
+      {
+        name: 'Concurrent Enrollment Grant',
+        yOne: 700000,
+        yTwo: 700000,
+      },
+      {
+        name: 'Cosmetology Program',
+        yOne: 450000,
+        yTwo: 450000,
+      },
+      {
+        name: 'Tuition Revenue Bond Debt Service - Academic Building',
+        yOne: 2720000,
+        yTwo: 2720000,
+      },
+      {
+        name: 'Hurricane Harvey Recovery Assistance',
+        yOne: 391105,
+        yTwo: 391105,
+      },
+    ],
+  },
+  {
+    agency: 'Lamar State College - Port Arthur',
+    article: 3,
+    requests: [
+      {
+        name: 'Workforce Training Center',
+        yOne: 1500000,
+        yTwo: 300000,
+        note: 'Creates 3 FTEs',
+      },
+      {
+        name: 'Concurrent Enrollment Grant',
+        yOne: 700000,
+        yTwo: 700000,
+      },
+      {
+        name: 'Hurricane Harvey Recovery Assistance',
+        yOne: 696565,
+        yTwo: 696565,
+      },
+      {
+        name: 'Tuition Revenue Bond Request',
+        yOne: 1700000,
+        yTwo: 1700000,
+      },
+    ],
+  },
 ];
