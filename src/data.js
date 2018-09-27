@@ -3217,4 +3217,120 @@ export default [
       },
     ],
   },
+  {
+    agency: 'Teacher Retirement System',
+    article: 3,
+    requests: [
+      {
+        name: 'Retiree Health Funding for Solvency',
+        yOne: 40980000,
+        yTwo: 0,
+      },
+      {
+        name: 'State Retirement Contributions',
+        yOne: 828861978,
+        yTwo: 853169400,
+      },
+    ],
+  },
+  {
+    agency: 'University of Houston',
+    article: 3,
+    requests: [
+      {
+        name: 'College of Medicine Funding',
+        yOne: 10000000,
+        yTwo: 10000000,
+        note: 'Creates 71 FTEs in 2020 and 93 FTEs in 2021',
+      },
+      {
+        name: 'Restore Non-Formula Reductions',
+        yOne: 5547021,
+        yTwo: 5547021,
+      },
+      {
+        name: 'Hurricane Harvey Disaster Relief Funding',
+        yOne: 20288883,
+        yTwo: 0,
+      },
+      {
+        name: 'New Law Center Building',
+        yOne: 5231073,
+        yTwo: 5231073,
+      },
+    ],
+  },
+  {
+    agency: 'University of Houston - Clear Lake',
+    article: 3,
+    requests: [
+      {
+        name: 'Restore Non-Formula Reductions',
+        yOne: 2106721,
+        yTwo: 2106720,
+        note: 'Creates 17.5 FTEs',
+      },
+      {
+        name: 'Tuition Revenue Bond Retirement',
+        yOne: 4882335,
+        yTwo: 4882335,
+      },
+      {
+        name: 'Hurricane Harvey Disaster Relief Funding',
+        yOne: 79485,
+        yTwo: 4183,
+      },
+    ],
+  },
+  {
+    agency: 'University of Houston - Downtown',
+    article: 3,
+    requests: [
+      {
+        name: 'Restore Non-Formula Reductions',
+        yOne: 821491,
+        yTwo: 821493,
+        note: 'Creates 9 FTEs',
+      },
+      {
+        name: 'Collaborative, Retention and Academic Engagement Facilities',
+        yOne: 8000000,
+        yTwo: 7000000,
+      },
+      {
+        name: 'Hurricane Harvey Recovery/Mitigation Costs',
+        yOne: 4000000,
+        yTwo: 0,
+      },
+      {
+        name:
+          'Arts, Sciences, Engineering, and Entrepreneurship Center CCB Retirement',
+        yOne: 9517723,
+        yTwo: 9517723,
+      },
+    ],
+  },
+  {
+    agency: 'University of Houston - Victoria',
+    article: 3,
+    requests: [
+      {
+        name:
+          'University of Houston - Victoria Campus Expansion (Tuition Revenue Bond Debt Service)',
+        yOne: 6512686,
+        yTwo: 6512686,
+      },
+      {
+        name: 'Restoring of Non-Formula',
+        yOne: 1696964,
+        yTwo: 1696964,
+        note: 'Creates 19.5 FTEs',
+      },
+      {
+        name: 'Hurricane Harvey Recovery',
+        yOne: 1260553,
+        yTwo: 0,
+      },
+    ],
+  },
 ];
