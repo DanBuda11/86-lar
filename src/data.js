@@ -3427,7 +3427,7 @@ export default [
     ],
   },
   {
-    agency: 'THe University of Texas of the Permian Basin',
+    agency: 'The University of Texas of the Permian Basin',
     article: 3,
     requests: [
       {
@@ -3461,7 +3461,7 @@ export default [
     ],
   },
   {
-    agency: 'THe University of Texas at San Antonio',
+    agency: 'The University of Texas at San Antonio',
     article: 3,
     requests: [
       {
