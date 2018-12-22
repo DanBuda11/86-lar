@@ -3,6 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -43,7 +44,6 @@ module.exports = {
     new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
       template: 'src/views/index.html',
-      favicon: 'dollar.ico',
     }),
     new BrowserSyncPlugin(
       {
@@ -55,5 +55,19 @@ module.exports = {
         reload: false,
       }
     ),
+    new CopyWebpackPlugin([
+      {
+        from: './*',
+        test: /\.(png|xml|ico|svg|webmanifest)$/,
+        ignore: [
+          '86-lar-small.png',
+          '.babelrc',
+          '.gitignore',
+          '*.json',
+          '*.js',
+          '*.md',
+        ],
+      },
+    ]),
   ],
 };
